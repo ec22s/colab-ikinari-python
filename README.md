@@ -12,7 +12,7 @@ Gooble Colabで本『いきなりプログラミング Python』に取り組む�
 <br>
 
 ## 第1回
-- 2026.1.8 13:30〜14:30 オンライン
+- 2026.1.9 at 13:30〜14:30 オンライン
 
 - (1) このページ https://github.com/ec22s/colab-ikinari-python を見れる準備
 
