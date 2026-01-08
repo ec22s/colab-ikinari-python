@@ -56,7 +56,7 @@
 - 変更は次の2つ
 
   - 元プログラムの22行目と23行目の間（`else` と `high = guess` の間）に ↓ を挿入
-    https://github.com/ec22s/colab-ikinari-python/blob/.../day-1/enhance-ex-2B.py#L24-L26
+    https://github.com/ec22s/colab-ikinari-python/blob/3a580f98f17c54b38a1e217bb5cd83e0193eecbb/day-1/enhance-ex-2A.py#L24-L26
 
   - 変更後の27行目 `high = guess` のインデントを1つ深く (でないとエラー)
 
@@ -89,7 +89,7 @@
 - 変更は次の2つ
 
   - 元プログラムの22行目と23行目の間（`else` と `high = guess` の間）に ↓ を挿入
-    https://github.com/ec22s/colab-ikinari-python/blob/8722fdadd86c849650c14c8e90fcaa295827ebb2/day-1/enhance-ex-2A.py#L24-L31
+    https://github.com/ec22s/colab-ikinari-python/blob/3a580f98f17c54b38a1e217bb5cd83e0193eecbb/day-1/enhance-ex-2B.py#L24-L31
 
   - 変更後の32行目 `high = guess` のインデントを2つ深く (でないとエラー)
 
