@@ -1,4 +1,12 @@
-## enhance-ex-1.py 解説
+# 第1回 (6) 時間が余った人向け作業の補足
+
+<br>
+
+## プログラム変更 (1)
+
+- 全体の例 https://github.com/ec22s/colab-ikinari-python/blob/day-1/day-1/enhance-ex-1.py
+
+<br>
 
 - 元プログラムの問題点
 
@@ -39,7 +47,9 @@
 
 <br>
 
-## enhance-ex-2A.py 解説
+## プログラム変更 (2) 改良例 A
+
+- 全体の例 https://github.com/ec22s/colab-ikinari-python/blob/day-1/day-1/enhance-ex-2A.py
 
 - 元プログラムの問題点
 
@@ -78,7 +88,9 @@
 
 <br>
 
-## enhance-ex-2B.py 解説
+## プログラム変更 (2) 改良例 B
+
+- 全体の例 https://github.com/ec22s/colab-ikinari-python/blob/day-1/day-1/enhance-ex-2B.py
 
 - 元プログラムの問題点は前項と同じ。この改良例 B として考えたもの
 
@@ -113,4 +125,6 @@
 
 <br>
 
-TODO: 今回のゲームを「誰でも遊べるWebアプリ」にする方法について追記
+## 今回のゲームを「誰でも遊べるWebアプリ」にする方法
+
+WIP: 検討中
