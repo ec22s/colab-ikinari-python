@@ -127,4 +127,15 @@
 
 ## 今回のゲームを「誰でも遊べるWebアプリ」にする方法
 
-WIP: 検討中
+- こちら → https://github.com/ec22s/nicegui-ikinari-python
+
+- 公開中のWebアプリ https://nicegui-ikinari-python.onrender.com/
+
+  <img height="192" src="https://github.com/user-attachments/assets/9c0f0bbe-6fbe-473f-b7ff-ae2c271baf70" />
+
+  - 15分間アクセスないと休止、再開時は約1分待つ
+
+  - `chapter-1-a` ほぼ本と同じ
+
+  - `chapter-1-b` 少しアレンジ（ユーザが数を思い浮かべてからスタートする等）
+
