@@ -5,6 +5,7 @@
 p.71 mac PyAudio そのままだとインストールエラーになる
 
   - 対処方法 https://qiita.com/nyancook/items/ebc0afd535210f487f47
+
     ```
     brew update
     brew install portaudio
