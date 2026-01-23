@@ -1,29 +1,21 @@
-# 第1回 (6) 時間が余った人向け作業の補足
+# 第3回 Chapter 1「数当てられゲーム」の改良等の解説
 
 <br>
 
-## プログラム変更 (1)
+## 改良①
 
-- 全体の例 https://github.com/ec22s/colab-ikinari-python/blob/day-1/day-1/enhance-ex-1.py
-
-<br>
-
-- 元プログラムの問題点
+- 元プログラムの問題点と改良点
 
   - 起動して「数字を思い浮かべて･･･」と表示した直後に「50より大きいですか？」と聞かれる（早過ぎ）
 
-<br>
-
-- この改良例として考えたもの
-
-  - 開始してまず「思い浮かべましたか？」と聞き `yes` が入力されたら質問を始める
+    → 開始してまず「思い浮かべましたか？」と聞き `yes` が入力されたら質問を始める
 
 <br>
 
-- 変更は次の2つ
+- 変更箇所
 
   - 元プログラムの1行目と2行目の間に ↓ を挿入
-    https://github.com/ec22s/colab-ikinari-python/blob/b9f53a3dfd62717e0dc4482df25e449c13f8be8f/day-1/enhance-ex-1.py#L3-L7
+    https://github.com/ec22s/colab-ikinari-python/blob/deaac08a99d9d881844321cf0c785769eff49535/day-3/enhance-ex-1.py#L3-L7
 
   - 変更後の8行目以降をインデント (でないとエラー)
 
@@ -31,9 +23,9 @@
 
 - 変更後5行目 `!=` の意味は本 `p.32` を参照
 
-  - これが `==` だと、`else` までの間に元あった多くの行数を入れる必要がある
+  - `==` を使っても同じ改良はできるが、`if .. else` の間に元あった多くの行を入れる必要がある
 
-  - そうした条件分岐の先が見にくいプログラムは「見通しが悪い」と批判されがち
+  - そうした条件分岐の先が見にくいプログラムは「見通しが悪い」
 
 <br>
 
@@ -43,30 +35,30 @@
 
   - あえてそうしたのは、Google Colabはプログラムを途中終了する機能がない（！）から
 
-  - 今後もGoogle Colabの特殊性として要注意
+  - 今後もGoogle Colabの特殊性として注意
 
 <br>
 
-## プログラム変更 (2) 改良例 A
+- 改良したコード全体 →  https://github.com/ec22s/colab-ikinari-python/blob/main/day-3/enhance-ex-1.py
 
-- 全体の例 https://github.com/ec22s/colab-ikinari-python/blob/day-1/day-1/enhance-ex-2A.py
-
-- 元プログラムの問題点
-
-  - 質問への答で `yes` を `YES` と誤入力すると、`no` と同じ扱いになる
+  新しいセルに貼り付けて動作確認できます
 
 <br>
 
-- この改良例 A として考えたもの
+## 改良② A
 
-  - 答が `YES` なら `yes` と同じ結果にする
+- 元プログラムの問題点と改良点
+
+  - 質問への答で `yes` を大文字の `YES` と誤入力すると、`no` と同じ扱いになる
+
+    → 答が `YES` なら小文字の `yes` と同じ結果にする
 
 <br>
 
-- 変更は次の2つ
+- 変更箇所
 
   - 元プログラムの22行目と23行目の間（`else` と `high = guess` の間）に ↓ を挿入
-    https://github.com/ec22s/colab-ikinari-python/blob/3a580f98f17c54b38a1e217bb5cd83e0193eecbb/day-1/enhance-ex-2A.py#L24-L26
+    https://github.com/ec22s/colab-ikinari-python/blob/deaac08a99d9d881844321cf0c785769eff49535/day-3/enhance-ex-2A.py#L24-L26
 
   - 変更後の27行目 `high = guess` のインデントを1つ深く (でないとエラー)
 
@@ -88,20 +80,24 @@
 
 <br>
 
-## プログラム変更 (2) 改良例 B
+- 改良したコード全体 → https://github.com/ec22s/colab-ikinari-python/blob/main/day-3/enhance-ex-2A.py
 
-- 全体の例 https://github.com/ec22s/colab-ikinari-python/blob/day-1/day-1/enhance-ex-2B.py
+  新しいセルに貼り付けて動作確認できます
 
-- 元プログラムの問題点は前項と同じ。この改良例 B として考えたもの
+<br>
+
+## 改良② B
+
+- 元プログラムの問題点は前項と同じ。この改良例として
 
   - 答が `yes/no` 以外なら、1回だけ「小文字のyesかnoで答えて下さい」と尋ね直す
 
 <br>
 
-- 変更は次の2つ
+- 変更箇所
 
   - 元プログラムの22行目と23行目の間（`else` と `high = guess` の間）に ↓ を挿入
-    https://github.com/ec22s/colab-ikinari-python/blob/3a580f98f17c54b38a1e217bb5cd83e0193eecbb/day-1/enhance-ex-2B.py#L24-L31
+    https://github.com/ec22s/colab-ikinari-python/blob/deaac08a99d9d881844321cf0c785769eff49535/day-3/enhance-ex-2B.py#L24-L31
 
   - 変更後の32行目 `high = guess` のインデントを2つ深く (でないとエラー)
 
@@ -125,11 +121,15 @@
 
 <br>
 
-## 今回のゲームを「誰でも遊べるWebアプリ」にする方法
+- 改良したコード全体 → https://github.com/ec22s/colab-ikinari-python/blob/main/day-3/enhance-ex-2B.py
 
-- こちら → https://github.com/ec22s/nicegui-ikinari-python
+  新しいセルに貼り付けて動作確認できます
 
-- 公開中のWebアプリ https://nicegui-ikinari-python.onrender.com/
+<br>
+
+## 今回のゲームを「誰でも遊べるWebアプリ」にするには
+
+- こちらでWebアプリ公開中 → https://nicegui-ikinari-python.onrender.com/
 
   <img height="192" src="https://github.com/user-attachments/assets/9c0f0bbe-6fbe-473f-b7ff-ae2c271baf70" />
 
@@ -139,3 +139,10 @@
 
   - `chapter-1-b` 少しアレンジ（ユーザが数を思い浮かべてからスタートする等）
 
+<br>
+
+- Webアプリ化の詳細は https://github.com/ec22s/nicegui-ikinari-python
+
+  - 現状、プライベートリポジトリ（見たい人は招待しますので連絡を）
+
+  - 専門的な内容を含みます

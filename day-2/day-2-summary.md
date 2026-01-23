@@ -53,7 +53,7 @@
 
   - コードのうちコメント（`#` で始まる行）は時間節約のため入力しなくても可
 
-  - コードに問題あれば<font color="red">赤字</font>や波下線で画面に示され、修正すると表示が消える
+  - コードに問題あれば<font color="red">赤字</font>や波下線で画面に示され、修正するとそれらの表示が消える
 
   - コードに問題ある状態で実行すると途中で止まり、エラー情報が結果表示欄に出る
 
@@ -127,13 +127,43 @@
 
 - 答えの例
 
-  - 先頭一致：`if answer.startswith('y'):`
+  - 先頭一致：if 文字列全体 `.startswith` (部分文字列) :
 
-  - 末尾一致：`if answer.endswith('s'):`
+  - 末尾一致：if 文字列全体 `.endswith` (部分文字列) :
 
-  - 中間一致：`if 'e' in answer:`
+  - どこかに一致：if 部分文字列 `in` 文字列全体 :
+
+    - 部分文字列が文字列全体に含まれる（先頭／末尾一致を含む）
 
     - 今回のコードにある `for i in ...` とは違う `in` の使い方
+
+    - 文字列全体と部分文字列の順番が `startswith` `endswith` と逆
+
+<br>
+
+- コード例（セルに貼り付けて実行可）
+
+  ```Python
+  answer = 'y'
+  if 'yes'.startswith(answer):
+    print(answer, 'はyesに先頭一致します')
+  else:
+    print(answer, 'はyesに先頭一致しません')
+
+  answer = 's'
+  if 'yes'.endswith(answer):
+    print(answer, 'はyesに末尾一致します')
+  else:
+    print(answer, 'はyesに末尾一致しません')
+
+  answer = 'e'
+  if answer in 'yes':
+    print(answer, 'はyesのどこかに一致します')
+  else:
+    print(answer, 'はyesのどこにも一致しません')
+  ```
+
+<br>
 
 - 他にも方法があります。気になる人は調べてみよう
 
