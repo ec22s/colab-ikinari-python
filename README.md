@@ -1,5 +1,7 @@
 # colab-ikinari-python
-Google Colaboratory（Colab）で本『いきなりプログラミング Python』に取り組む学習会用の資料です
+Google Colaboratory（Colab）で本『いきなりプログラミング Python』に取り組む初心者向け学習会の資料
+
+- 現状、所属組織内のクローズドな学習会です。参加希望の人は[プロフィール](//github.com/ec22s)のメールアドレスへご連絡下さい
 
 <br>
 
@@ -31,7 +33,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 本の内容だけさらうのはつまらない
 
-  - 第3章以降は本のままだとColabで動かず、学習会オリジナルのお手本が必要
+  - Chapter 3以降は本のままだとColabで動かず、学習会オリジナルのお手本が必要
+
+    → 学習会独自の[「Colabで本のChapter 3を動かす」](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md)コードを作った
+
+    → Chapter 4 以降もColab用の改変を準備済み、後日このリポジトリに掲載予定
 
   - ローカル環境よりColabでやる方がシェアしやすく発展性がある
 
@@ -197,7 +203,19 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- (5) クロージング
+- (5) 相談：このリポジトリのpublic（誰でも見れる）化について
+
+  - Chapter 3の準備で[学習会独自のコード](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md)ができ、privateのままでは勿体ない
+
+  - publicになると、コードをアップロードした参加者は `Contributors` として表示される。そこから、世界の誰でも各自のプロフィールページを開ける
+
+  - プロフィールページの表示項目は、idと名前だけにすることも可能
+
+  - 今後ColabとGitHubの連携を学習する中で、各自コードのアップロードを試してもらう予定だが、`Contributors` に表示されたくない人はスキップしてOK
+
+<br>
+
+- (6) クロージング
 
   - 次回の日時
 
