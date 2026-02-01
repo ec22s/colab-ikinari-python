@@ -18,6 +18,8 @@
 
 - このリポジトリにある [record.py](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record.py) を開き、右上にある `Raw` の右隣のアイコンを押してクリップボードにコピーし、セルに貼り付け
 
+  <img width="256" src="https://github.com/user-attachments/assets/14c9322d-b2f6-4f37-ad0d-71cd18ab3eea" />
+
 - セルを実行する。マイク使用許可を求める表示が出たら許可する（出ない場合もある）。エラーなく終了し出力欄に「録音準備完了」と表示されたらOK
 
 <br>
