@@ -1,5 +1,7 @@
 # colab-ikinari-python
-Google Colaboratory（Colab）で本『いきなりプログラミング Python』に取り組む学習会用の資料です
+Google Colaboratory（Colab）で本『いきなりプログラミング Python』に取り組む初心者向け学習会の資料
+
+- 現状、所属組織内のクローズドな学習会です。参加希望の人は[プロフィール](//github.com/ec22s)のメールアドレスへご連絡下さい
 
 <br>
 
