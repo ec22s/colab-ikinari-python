@@ -5,6 +5,22 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
+## 次回予定 & 開催記録
+
+- [第6回 (2026.2.13)](#第6回-2026213-予定)　← 次回
+
+- [第5回 (2026.2.6)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
+
+- [第4回 (2026.1.30)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-4/day-4-summary.md)　本 Chapter 2（p.38〜66）の説明、各自作業
+
+- [第3回 (2026.1.23)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-3/day-3-summary.md)　本 `1ｰ3` の質疑応答（文字列の部分一致）、ゲームの改良
+
+- [第2回 (2026.1.16)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-2/day-2-summary.md)　本 `1ｰ3`（p.23〜36）最初のアプリ（数当てられゲーム）
+
+- [第1回 (2026.1.9)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-1/day-1-summary.md)　本の説明、GitHubとColabの設定、最初のプログラム（Hello World）
+
+<br>
+
 ## 本『いきなりプログラミング Python』
 - wat 著
 
@@ -50,22 +66,6 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
   - ソースコードの共有ツールとして事実上デファクト
 
   - 仕事で開発するなら必須、早いうちに慣れるとよい（情報を見るだけでも）
-
-<br>
-
-## 開催記録 & 次回予定
-
-- [第1回 (2026.1.9)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-1/day-1-summary.md)　本の説明、GitHubとColabの設定、最初のプログラム（Hello World）
-
-- [第2回 (2026.1.16)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-2/day-2-summary.md)　本 `1ｰ3`（p.23〜36）最初のアプリ（数当てられゲーム）
-
-- [第3回 (2026.1.23)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-3/day-3-summary.md)　本 `1ｰ3` の質疑応答（文字列の部分一致）、ゲームの改良
-
-- [第4回 (2026.1.30)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-4/day-4-summary.md)　本 Chapter 2（p.38〜66）の説明、各自作業
-
-- [第5回 (2026.2.6)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
-
-- [第6回 (2026.2.13)](#第6回-2026213-予定)　開催予定
 
 <br>
 
