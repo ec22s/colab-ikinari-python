@@ -53,7 +53,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 開催記録
+## 開催記録 & 次回予定
 
 - [第1回 (2026.1.9)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-1/day-1-summary.md)　本の説明、GitHubとColabの設定、最初のプログラム（Hello World）
 
@@ -65,7 +65,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - [第5回 (2026.2.6)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
 
-- [第6回 (2026.2.13)](#第6回-2026213-予定)　← 次回アジェンダ
+- [第6回 (2026.2.13)](#第6回-2026213-予定)　開催予定
 
 <br>
 
