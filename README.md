@@ -1,13 +1,15 @@
 # colab-ikinari-python
 Google Colaboratory（Colab）で本『いきなりプログラミング Python』に取り組む初心者向け学習会の資料
 
-- 現状、所属組織内のクローズドな学習会です。参加希望の人は[プロフィール](//github.com/ec22s)のメールアドレスへご連絡下さい
+- 現状、所属組織内のクローズドな学習会です。参加希望の方は[プロフィール](//github.com/ec22s)のメールアドレスへご連絡下さい
 
 <br>
 
 ## 次回予定 & 開催記録
 
-- [第6回 (2026.2.13)](#第6回-2026213-予定)　← 次回
+- [第7回 (2026.2.27)](#第7回-2026227-予定)　← 次回　⚠️&thinsp;従来と違って2週間後
+
+- [第6回 (2026.2.13)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-6/day-6-summary.md)　Chapter 2 までの進捗確認・質問・サポート、Chapter 3（声変わり機）初回
 
 - [第5回 (2026.2.6)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
 
@@ -121,14 +123,14 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第6回 (2026.2.13) 予定
+## 第7回 (2026.2.27) 予定
 - 13:30〜14:30 オンライン（録画忘れずに）
 
   - 録画で見る場合、同じ作業を自分のPCでしながら見ると良いです。不明点等はチャットで質問して下さい
 
 <br>
 
-- (1) 報告：このリポジトリをpublic（誰でも見れる）にした件
+- (1) 未知の人がいれば報告：このリポジトリをpublic（誰でも見れる）にした件
 
   - Chapter 3の準備で[学習会独自のコード](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md)ができ、privateのままでは勿体ない
 
@@ -140,83 +142,52 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- (2) 作業環境がまだの人いたら
+- (2) 前回の振り返り
 
-  - GitHub：アカウント作成〜このリポジトリを開けるまで
+  - Chapter 3（本 `p.68〜`）に入った
 
-  - Colab：Googleドライブに学習会用フォルダを作成、左上「新規」→「その他」→ Google Colaboratoryが出るまで
-
-<br>
-
-- (3) 前回出た質問：Pythonのフレームワーク `NiceGUI` でDBを使える？
-
-  - NiceGUI：PythonだけでWebアプリが作れるフレームワーク https://nicegui.io
-
-      - フレームワーク：Webアプリなど特定の種類のシステムを簡単に作れるプログラム群
-
-      - 前回説明した、本のChapter 1と2の簡易Webアプリを作るのに使った
-
-        - 公開中 https://nicegui-ikinari-python.onrender.com
-
-        - 黒い背景の画面が出たら起動に約1分待つ（無料のクラウドサービスを使っているため）
-
-  - 質問への答え
-
-    - 結論的には使える
-
-    - ただしNiceGUIにDB用の特別な機能はなく、別途DB用のライブラリを使ってデータを読み込み、それをNiceGUIに持っていけばという話
-
-    - 上手くいかないという報告もあり https://github.com/zauberzeug/nicegui/discussions/1868
-
-    - 引き続き調査中（進展したらここを更新します）
+  - マイク録音用の関数 `record.py` がGoogle Chromeで動かず、終了後に修正した
 
 <br>
 
-- (4) Chapter 2 のアプリ（Hit & Blow ゲーム）各自完成できた？
+- (3) 各自の進捗に応じて説明・サポート or もくもく
 
-  - 完成した人がいたら画面共有し動作確認してもらう
+  - Chapter 2 までが未了の人
 
-  - 作業中の人は継続を
+    - どこかで詰まっている or 説明を聞きたい人：講師と会話・画面共有しながら作業
 
-  - 行き詰まった人がいればサポート
+    - 自分で進められそうな人：できる所まで作業し、詰まったら講師に質問
 
-  - コード等について質疑応答
+  - 前回 Chapter 3 に入った人：`record.py` を用い `3-2` から再開
 
-  - ○○を改良したい（してみた）等があれば是非！
+    - 資料のリンク → [3-2. マイクで音声を録音しよう](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#3-2-%E3%83%9E%E3%82%A4%E3%82%AF%E3%81%A7%E9%9F%B3%E5%A3%B0%E3%82%92%E9%8C%B2%E9%9F%B3%E3%81%97%E3%82%88%E3%81%86p82)
+
+    - リポジトリにある [record.py](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record.py) は修正済み（前回Chromeで動かなかったのを直した）
+
+    - 詰まったら講師に質問
+
+  - Chapter 3 が終わった人：
+
+    - Chapter 4 に進む → [説明資料](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)（当日までに準備予定）
+
+    - 本にある説明を読む
+
+    - 本と同じ環境（ローカルのJupyter Notebook）を構築し好きな箇所をやってみる
+
+    など自由に
 
 <br>
 
-- (5) Chapter 2が終わった人は
-
-  - [Chapter 3の解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md)（Colabで動かす方法）を自習して取り組んだり、本のとおりPCにJupyter Notebook環境を構築して好きな章を作業する等、自由に
-
-  - 行き詰まったら随時質問して下さい
-
-<br>
-
-- (6) クロージング
+- (4) クロージング
 
   - 次回の日時
 
-    - 従来同様、1週間後 (2026.2.20 Fri) 13時30分〜14時30分でよいか
+    - 1週間後 (2026.3.6 Fri) 13時30分〜14時30分でよいか
 
-  - 次回の内容
+  - 次回の内容・進め方
 
   - その他あれば
 
 <br>
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
