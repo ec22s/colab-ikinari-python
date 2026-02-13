@@ -3,6 +3,7 @@
 from IPython.display import display, Javascript
 from google.colab.output import eval_js
 from base64 import b64decode
+from pydub import AudioSegment
 import soundfile as sf
 import io
 import numpy as np
@@ -46,8 +47,13 @@ def record(duration):
   '''))
 
   data = eval_js(f'recordAudio({duration})')
+
+  # WAV形式に統一して読み込み
+  buffer = io.BytesIO()
+  AudioSegment.from_file(io.BytesIO(b64decode(data.split(',')[1]))).export(buffer, format="wav")
+  buffer.seek(0)
   waveform, sampling_rate = sf.read(
-    io.BytesIO(b64decode(data.split(',')[1])),
+    buffer,
     dtype='int16' # 無指定なら自動で正規化されるが、あえて本と同じ正規化処理をするため指定
   )
 
