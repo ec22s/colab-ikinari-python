@@ -148,7 +148,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - マイク録音用の関数 `record.py` がGoogle Chromeで動かず、終了後に修正した
 
-  - Chapter 3の解説に、本にない内容「加工した音声を再生しよう」を追加した → [リンク](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#%E5%8A%A0%E5%B7%A5%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%82%92%E5%86%8D%E7%94%9F%E3%81%97%E3%82%88%E3%81%86%EF%BC%88%E7%8B%AC%E8%87%AA%E3%81%AE%E8%BF%BD%E5%8A%A0%EF%BC%89)
+  - Chapter 3の解説に、本にない内容「加工した音声を再生しよう」を追加した → [リンク](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#%E5%8A%A0%E5%B7%A5%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%82%92%E5%86%8D%E7%94%9F%E3%81%97%E3%82%88%E3%81%86%E7%8B%AC%E8%87%AA%E3%81%AE%E8%BF%BD%E5%8A%A0)
 
 <br>
 
