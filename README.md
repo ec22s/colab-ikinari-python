@@ -168,9 +168,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - Chapter 3 への独自工夫として (1) (2) があります（今回追加しました）。興味あれば取り組んでみて下さい
 
-      - [(1) 加工した音声を再生しよう]() TODO: 後でリンク追加
+      - [(1) 加工した音声を再生しよう](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#%E7%AC%AC7%E5%9B%9E%E7%94%A8%E3%81%AE%E7%8B%AC%E8%87%AA%E8%BF%BD%E5%8A%A0-1-%E5%8A%A0%E5%B7%A5%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%82%92%E5%86%8D%E7%94%9F%E3%81%97%E3%82%88%E3%81%86)
 
-      - [(2) より便利な関数 `record_auto_stop` を使おう]() TODO: 後でリンク追加
+      - [(2) より便利な関数 `record_auto_stop` を使おう](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#%E7%AC%AC7%E5%9B%9E%E7%94%A8%E3%81%AE%E7%8B%AC%E8%87%AA%E8%BF%BD%E5%8A%A0-2-%E3%82%88%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E9%96%A2%E6%95%B0-record_auto_stop-%E3%82%92%E4%BD%BF%E3%81%8A%E3%81%86)
 
     - または
 
