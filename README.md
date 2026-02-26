@@ -142,11 +142,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- (2) 前回の振り返り
+- (2) 前回から今日までの振り返り
 
   - Chapter 3（本 `p.68〜`）に入った
 
-  - マイク録音用の関数 `record.py` がGoogle Chromeで動かず、終了後に修正した
+  - Colab用に作ったマイク録音関数 `record.py` がGoogle Chromeで動かず、終了後に修正した
 
 <br>
 
@@ -158,23 +158,27 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - 自分で進められそうな人：できる所まで作業し、詰まったら講師に質問
 
-  - 前回 Chapter 3 に入った人：`record.py` を用い `3-2` から再開
-
-    - 資料のリンク → [3-2. マイクで音声を録音しよう](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#3-2-%E3%83%9E%E3%82%A4%E3%82%AF%E3%81%A7%E9%9F%B3%E5%A3%B0%E3%82%92%E9%8C%B2%E9%9F%B3%E3%81%97%E3%82%88%E3%81%86p82)
+  - 前回 Chapter 3 に入った人：`record.py` を用い[「3-2. マイクで音声を録音しよう」](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#3-2-%E3%83%9E%E3%82%A4%E3%82%AF%E3%81%A7%E9%9F%B3%E5%A3%B0%E3%82%92%E9%8C%B2%E9%9F%B3%E3%81%97%E3%82%88%E3%81%86p82)から再開
 
     - リポジトリにある [record.py](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record.py) は修正済み（前回Chromeで動かなかったのを直した）
 
     - 詰まったら講師に質問
 
-  - Chapter 3 が終わった人：
+  - 本の Chapter 3 が終わった人：
 
-    - Chapter 4 に進む → [説明資料](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)（当日までに準備予定）
+    - Chapter 3 への独自工夫として (1) (2) があります（今回追加しました）。興味あれば取り組んでみて下さい
 
-    - 本にある説明を読む
+      - [(1) 加工した音声を再生しよう](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#%E7%AC%AC7%E5%9B%9E%E7%94%A8%E3%81%AE%E7%8B%AC%E8%87%AA%E8%BF%BD%E5%8A%A0-1-%E5%8A%A0%E5%B7%A5%E3%81%97%E3%81%9F%E9%9F%B3%E5%A3%B0%E3%82%92%E5%86%8D%E7%94%9F%E3%81%97%E3%82%88%E3%81%86)
 
-    - 本と同じ環境（ローカルのJupyter Notebook）を構築し好きな箇所をやってみる
+      - [(2) より便利な関数 `record_auto_stop` を使おう](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md#%E7%AC%AC7%E5%9B%9E%E7%94%A8%E3%81%AE%E7%8B%AC%E8%87%AA%E8%BF%BD%E5%8A%A0-2-%E3%82%88%E3%82%8A%E4%BE%BF%E5%88%A9%E3%81%AA%E9%96%A2%E6%95%B0-record_auto_stop-%E3%82%92%E4%BD%BF%E3%81%8A%E3%81%86)
 
-    など自由に
+    - または
+
+      - 本にある説明を読む
+
+      - 本と同じ環境（ローカルのJupyter Notebook）を構築し好きな箇所をやってみる
+
+      など自由にしてもらってもいいです
 
 <br>
 
@@ -182,7 +186,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 次回の日時
 
-    - 1週間後 (2026.3.6 Fri) 13時30分〜14時30分でよいか
+    - 都合により2週間後 (2026.3.13 Fri) 13時30分〜14時30分でよいか
 
   - 次回の内容・進め方
 
