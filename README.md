@@ -146,7 +146,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - Chapter 3（本 `p.68〜`）に入った
 
-  - マイク録音用の関数 `record.py` がGoogle Chromeで動かず、終了後に修正した
+  - Colab用に作ったマイク録音関数 `record.py` がGoogle Chromeで動かず、終了後に修正した
 
 <br>
 
