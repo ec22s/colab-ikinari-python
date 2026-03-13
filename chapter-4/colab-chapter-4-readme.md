@@ -14,7 +14,7 @@
 
 ### 4-1. 音声認識の準備をしよう（p.106〜）
 
-- セクション全体を割愛（ColabではPCのマイクを認識できないため）
+- セクション全体を割愛（必要なライブラリは後ほどColab上でインストールするため）
 
 <br>
 
@@ -292,7 +292,7 @@
 
 <br>
 
-### 学習会独自のお手本コード
+## 学習会独自のお手本コード
 
 - 以上で作ったセルの全ては、このリポジトリにある [chapter-4/colab-chapter-4.ipynb](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4.ipynb) にあります
 
