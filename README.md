@@ -7,7 +7,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第8回 (2026.3.13)](#第8回-2026313-予定)　← 次回　⚠️&thinsp;2週間後
+- [第9回 (2026.3.27)](#第9回-2026327-予定)　← 次回 2週間後
+
+- [第8回 (2026.3.13)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-8/day-8-summary.md)　Chapter 3 続き（未完の参加者サポート）, Chapter 4（音声認識）準備まで
 
 - [第7回 (2026.2.27)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-7/day-7-summary.md)　Chapter 3 続き（独自に準備したColab用関数を使い、本と同じ機能＋αを実施）
 
@@ -125,7 +127,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第8回 (2026.3.13) 予定
+## 第9回 (2026.3.27) 予定
 
 - 13:30〜14:30 オンライン（録画忘れずに）
 
@@ -135,13 +137,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - (1) 前回の振り返り
 
-  - Chapter 3（本 `p.68〜`）を一通り終えた
+  - Chapter 3（本 `p.68〜`）が途中だった参加者の方をサポートし、この章を一通り終えた
 
     - Colab用に作ったマイク録音用関数 [`record.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record.py) を用い、本と同じ機能（録音, グラフ描画, WAVファイル出力, ボイスチェンジ）を実行した
 
-    - Chapter 4 の準備を兼ねて作成した新しい関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record_auto_stop.py) を試し、マイクへの発話が終わった時に録音が自動終了するのを確認した
-
-    - 本にない独自の＋αとして、音声データをColab上で再生するコードを加えた
+  - Chapter 4（本 `p.104〜`）をColabで動かす解説が準備済みであることを伝え[（リンク先）](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)、Chapter 3 完了済みの人に着手してもらった
 
 <br>
 
@@ -175,7 +175,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 次回の日時
 
-    - 来週が祝日のため2週間後 (2026.3.27 Fri) 13時30分〜14時30分でよいか
+    - 当初のように1週間後（4/3 金）にするか、それとも2週間後（4/10 金）にするか相談
+
+    - 時間は13時30分〜14時30分でよいか
 
   - 次回の内容・進め方
 
