@@ -304,9 +304,9 @@
 
 - 動作確認環境
 
-  - OS : `macOS 15.7.3` , `macOS 26.3`
+  - OS : `macOS 26.3`
 
-  - Webブラウザ : `Firefox 147.0.1` , `Chrome 144.0.7559.133`
+  - Webブラウザ : `Firefox 148.0` , `Chrome 145.0.7632.160`
 
 <br>
 
