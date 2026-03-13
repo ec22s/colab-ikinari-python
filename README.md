@@ -161,8 +161,6 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
       - 詳細はこちらで準備した手順 [（→ リンク)](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md) を参照し、不明な点は講師に質問
 
-        ＊リンク先の内容は当日までに書きます
-
     - または
 
       - 本にある説明を読む
