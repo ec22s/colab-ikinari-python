@@ -1,5 +1,5 @@
 # record_auto_stop関数 (record関数の自動停止版、無音を検知するまで録音)
-# Chapter 3に追加したものとほぼ同じ（最後の戻り値だけ変更）
+# Chapter 3に追加したものとほぼ同じ（メッセージ表示と最後の戻り値だけ変更）
 
 from IPython.display import display, Javascript
 from google.colab.output import eval_js
@@ -26,7 +26,7 @@ def record_auto_stop(
         target.id = domId;
         output.insertBefore(target, output.firstChild);
       }
-      target.innerHTML += `${text}<br>`;
+      target.innerHTML = `${text}<br>`;
     };
 
     // 音量の指標を計算
@@ -61,7 +61,7 @@ def record_auto_stop(
       const chunks = [];
       const recorder = new MediaRecorder(stream);
       recorder.ondataavailable = e => {
-        message('録音中');
+        // message('録音中');
         chunks.push(e.data);
       };
 
@@ -84,7 +84,7 @@ def record_auto_stop(
       }
 
       const fr = new FileReader();
-      message('録音開始');
+      message('🎤');
       recorder.onstop = e => {
         message('録音終了');
         fr.readAsDataURL(new Blob(chunks))
