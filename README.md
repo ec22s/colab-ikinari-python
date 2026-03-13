@@ -57,9 +57,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - Chapter 3以降は本のままだとColabで動かず、学習会オリジナルのお手本が必要
 
-    → 学習会独自の[「Colabで本のChapter 3を動かす」](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md)コードを作った
+    → 学習会独自の[「Colabで本のChapter 3を動かす」](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md),[「Chapter 4を動かす」](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)コードを作った
 
-    → Chapter 4 以降もColab用の改変を準備済み、後日このリポジトリに掲載予定
+    → Chapter 5 以降もColab用の改変を準備済み、後日このリポジトリに掲載予定
 
   - ローカル環境よりColabでやる方がシェアしやすく発展性がある
 
