@@ -163,6 +163,8 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - または
 
+      - Chapter 5 を先に見てみる [（→ リンク)](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)　※&thinsp;タイムラプス動画まで準備済み
+
       - 本にある説明を読む
 
       - 本と同じ環境（ローカルのJupyter Notebook）を構築し好きな箇所をやってみる
