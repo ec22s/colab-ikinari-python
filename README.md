@@ -1,13 +1,17 @@
 # colab-ikinari-python
 Google Colaboratory（Colab）で本『いきなりプログラミング Python』に取り組む初心者向け学習会の資料
 
-- 現状、所属組織内のクローズドな学習会です。参加希望の方は[プロフィール](//github.com/ec22s)のメールアドレスへご連絡下さい
+- 現状、所属組織内のクローズドな学習会です
+
+- 参加希望の方は[プロフィール](//github.com/ec22s)のメールアドレスへご連絡下さい
 
 <br>
 
 ## 次回予定 & 開催記録
 
-- [第9回 (2026.3.27)](#第9回-2026327-予定)　← 次回 2週間後
+- [第10回 (2026.4.10)](#第10回-2026410-予定)　← 次回 2週間後
+
+- [第9回 (2026.3.27)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-9/day-9-summary.md)　Chapter 3（未着手の参加者サポート）, Chapter 4（音声認識）初回
 
 - [第8回 (2026.3.13)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-8/day-8-summary.md)　Chapter 3 続き（未完の参加者サポート）, Chapter 4（音声認識）準備まで
 
@@ -127,43 +131,43 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第9回 (2026.3.27) 予定
+## 第10回 (2026.4.10) 予定
 
 - 13:30〜14:30 オンライン（録画忘れずに）
 
-  - 録画で見る場合、同じ作業を自分のPCでしながら見ると良いです。不明点等はチャットで質問して下さい
+  - 録画で見る場合、画面と同じ作業をしながら見ると良いです。不明点等はチャットで質問して下さい
 
 <br>
 
 - (1) 前回の振り返り
 
-  - Chapter 3（本 `p.68〜`）が途中だった参加者の方をサポートし、この章を一通り終えた
+  - Chapter 3（本 `p.68〜`）が未着手だった人をサポートし、全ての箇所を終えた（録画が Chapter 3 の復習として最適）
 
-    - Colab用に作ったマイク録音用関数 [`record.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record.py) を用い、本と同じ機能（録音, グラフ描画, WAVファイル出力, ボイスチェンジ）を実行した
+  - 一部の人は Chapter 4（本 `p.104〜`）に入り、マイク設定で少し手間取ったが、最終的に「マイクに発話した音声をテキスト認識させる」第一歩が出来た
 
-  - Chapter 4（本 `p.104〜`）をColabで動かす解説が準備済みであることを伝え[（リンク先）](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)、Chapter 3 完了済みの人に着手してもらった
+    - 学習会がColab用に作った録音用関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record_auto_stop.py) を利用。チャットツールでマイクを使いながらという特殊な環境でも、設定を整えれば録音〜音声認識までできると分かった
 
 <br>
 
 - (2) 各自の進捗に応じて説明・サポート or もくもく
 
-  - Chapter 3 までが未了の人
+  - Chapter 3 までで未了がある人
 
     - どこかで詰まっている or 説明を聞きたい人：講師と会話・画面共有しながら作業
 
     - 自分で進められそうな人：できる所まで作業し、詰まったら講師に質問
 
-  - Chapter 3 が終わった人：
+  - Chapter 4 未着手 or 途中の人
 
-    - Chapter 4 に取り組んでみよう
+    - [<ins>本リポジトリの解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;を見ながら進め、不明な点は講師に質問
 
-      - Chapter 3 と同様、Colab用に独自に準備した関数を使う（マイク録音のため）
+    - Chapter 3 と同様、Colab用に独自に準備した関数を使う（マイク録音のため）
 
-      - 詳細はこちらで準備した手順 [（→ リンク)](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md) を参照し、不明な点は講師に質問
+  - Chapter 4 終わった人
+
+    - Chapter 5 を [<ins>本リポジトリの解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;を見ながら進める　※&thinsp;タイムラプス動画まで準備済み
 
     - または
-
-      - Chapter 5 を先に見てみる [（→ リンク)](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)　※&thinsp;タイムラプス動画まで準備済み
 
       - 本にある説明を読む
 
@@ -177,7 +181,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 次回の日時
 
-    - 当初のように1週間後（4/3 金）にするか、それとも2週間後（4/10 金）にするか相談
+    - 他の学習会も始まり1週間後は厳しいと思われ、2週間後（4/24 金）でどうか
 
     - 時間は13時30分〜14時30分でよいか
 
