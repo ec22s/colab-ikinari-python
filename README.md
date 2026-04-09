@@ -9,7 +9,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第10回 (2026.4.10)](#第10回-2026410-予定)　← 次回 2週間後
+- [第10回 (2026.4.17)](#第10回-2026417-予定)　← 次回 都合により3週間後に変更しました
 
 - [第9回 (2026.3.27)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-9/day-9-summary.md)　Chapter 3（未着手の参加者サポート）, Chapter 4（音声認識）初回
 
@@ -131,7 +131,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第10回 (2026.4.10) 予定
+## 第10回 (2026.4.17) 予定
 
 - 13:30〜14:30 オンライン（録画忘れずに）
 
