@@ -53,7 +53,9 @@
 
     - 設定変更の詳細は各々の環境によるので省略
 
-    - 問題の切り分けのため、録音した音声を保存・再生できると良い（いずれ [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/record_auto_stop.py) 関数を改良する）
+    - 問題の切り分けのため、録音した音声を再生できると良い
+
+      - 終了後 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/record_auto_stop.py) 関数をそのように改良し、chapter 4のREADMEにも反映した
 
   - [本リポジトリの解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;の下記のようなコード修正記法について一部で誤解があり、説明した
 

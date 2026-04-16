@@ -147,6 +147,8 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - 学習会がColab用に作った録音用関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record_auto_stop.py) を利用。チャットツールでマイクを使いながらという特殊な環境でも、設定を整えれば録音〜音声認識までできると分かった
 
+  - その後、録音した音声の再生機能を同関数に追加し、[Chapter 4&thinsp;の解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;にも反映した。音声認識できない場合の調査に役立つはず
+
 <br>
 
 - (2) 各自の進捗に応じて説明・サポート or もくもく
@@ -159,13 +161,13 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - Chapter 4 未着手 or 途中の人
 
-    - [<ins>本リポジトリの解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;を見ながら進め、不明な点は講師に質問
+    - [<ins>解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;を見ながら進め、不明な点は講師に質問
 
     - Chapter 3 と同様、Colab用に独自に準備した関数を使う（マイク録音のため）
 
   - Chapter 4 終わった人
 
-    - Chapter 5 を [<ins>本リポジトリの解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;を見ながら進める
+    - Chapter 5 を&thinsp;[<ins>解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;を見ながら進める
 
     - または
 

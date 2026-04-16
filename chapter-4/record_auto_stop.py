@@ -1,7 +1,8 @@
 # record_auto_stop関数 (record関数の自動停止版、無音を検知するまで録音)
-# Chapter 3に追加したものとほぼ同じ（メッセージ表示と最後の戻り値だけ変更）
+# Chapter 3に追加したものとほぼ同じ（メッセージ表示, 音声再生機能, 最後の戻り値が違う）
+# 動作確認済: macOS Tahoe 26.4 + Chrome 146.0, Firefox 149.0
 
-from IPython.display import display, Javascript
+from IPython.display import Audio, display, Javascript
 from google.colab.output import eval_js
 from base64 import b64decode
 from pydub import AudioSegment
@@ -119,6 +120,11 @@ def record_auto_stop(
   AudioSegment.from_file(
     io.BytesIO(b64decode(data.split(',')[1]))
   ).export(buffer, format="wav")
+
+  buffer.seek(0)
+  waveform, sampling_rate = sf.read(buffer)
+  display(Audio(data=waveform, rate=sampling_rate, autoplay=False))
+
   buffer.seek(0)
   return buffer
 

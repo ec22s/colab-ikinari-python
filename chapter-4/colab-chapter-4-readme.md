@@ -28,6 +28,17 @@
 
 <br>
 
+- 関数の4行目 インポート対象に `Audio` を追加
+
+  ```Python
+  - from IPython.display import display, Javascript
+  + from IPython.display import Audio, display, Javascript
+  ```
+
+  - 修正の理由：録音した音声を再生できるようにするため
+
+<br>
+
 - 関数の29行目 `+=` を `=` に変更
 
   ```JavaScript
@@ -60,14 +71,18 @@
 
 <br>
 
-  - 関数の123行目 `return sf.read(buffer)` を `return buffer` に修正
+  - 関数の123行目 `return sf.read(buffer)` を次のように修正
 
     ```Python
     - return sf.read(buffer)
+    + waveform, sampling_rate = sf.read(buffer)
+    + display(Audio(data=waveform, rate=sampling_rate, autoplay=False))
+    +
+    + buffer.seek(0)
     + return buffer
     ```
 
-    - 修正の理由：WAVファイルのデータを直接使うため
+    - 修正の理由：音声再生できる状態にしてデータを返すため
 
 <br>
 
@@ -114,12 +129,19 @@
 
 - 話し終えたら自動的に録音が終わり、音声認識結果が示されればOK
 
-  ```
-  録音終了
-  音声認識結果「＊＊＊＊＊」
-  ```
+  <img height="256" src=""> TODO: ↑ 画像挿入
 
-- これが本 p.112 `4-2-2` と同様の動きになります
+- 話しているのに録音が終わってしまう場合は `SILENCE_SEC` 無音秒数の設定を長くしてみる
+
+  - 処理上のタイムラグで、🎤 が出る前に録音が始まっている可能性があるため
+
+- 結果が「認識できません」の場合、音声を再生して原因を調べる
+
+  - 声が録音されていれば、周囲の環境音が大きすぎるなど問題を絞り込める
+
+  - 声が録音されていなければマイク設定が原因（チャットツール使用中ならそれも関係するかも）
+
+- 以上が本 p.112 `4-2-2` と概ね同様の動きになります
 
 - コードを比較して、本と違う箇所の理由を考えると良いです. 不明な点は質問して下さい
 
