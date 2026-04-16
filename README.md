@@ -145,7 +145,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 一部の人は Chapter 4（本 `p.104〜`）に入り、マイク設定で少し手間取ったが、最終的に「マイクに発話した音声をテキスト認識させる」第一歩が出来た
 
-    - 学習会がColab用に作った録音用関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/record_auto_stop.py) を利用。チャットツールでマイクを使いながらという特殊な環境でも、設定を整えれば録音〜音声認識までできると分かった
+    - 学習会がColab用に作った録音用関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/record_auto_stop.py) を利用。チャットツールでマイクを使いながらという特殊な環境でも、設定を整えれば録音〜音声認識までできると分かった
 
   - その後、録音した音声の再生機能を同関数に追加し、[Chapter 4&thinsp;の解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;にも反映した。音声認識できない場合の調査に役立つはず
 
