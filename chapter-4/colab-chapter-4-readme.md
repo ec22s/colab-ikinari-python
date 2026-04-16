@@ -129,7 +129,7 @@
 
 - 話し終えたら自動的に録音が終わり、音声認識結果が示されればOK
 
-  <img height="256" src=""> TODO: ↑ 画像挿入
+  <img height="137" src="https://github.com/user-attachments/assets/504adcd9-1451-4c58-97c5-d26948274b4f" />
 
 - 話しているのに録音が終わってしまう場合は `SILENCE_SEC` 無音秒数の設定を長くしてみる
 
