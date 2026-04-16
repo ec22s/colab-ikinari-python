@@ -39,9 +39,9 @@
 
     - 初回はたいていカメラ利用が未許可なのでエラーになるが、再実行してカメラ利用許可すればエラーは消えるはず
 
-      - 出ると思われる2種類のカメラ利用確認（TODO: 下に画像を挿入）
+    - カメラ利用の確認はたいてい2種類、下記のようなものが出る（英語の場合）
 
-        <img height=256 src="">　<img height=256 src="">
+        <img height=200 src="https://github.com/user-attachments/assets/9975410a-8309-4281-886b-28e41273f398">　<img height=200 src="https://github.com/user-attachments/assets/ba323249-0f28-47cc-a7e1-75bc731ce9a3">
 
     - 実行後、Colabのファイル一覧に画像 `img.jpg` が保存されていればOK
 
