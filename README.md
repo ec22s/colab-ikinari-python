@@ -165,7 +165,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - Chapter 4 終わった人
 
-    - Chapter 5 を [<ins>本リポジトリの解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;を見ながら進める　※&thinsp;タイムラプス動画まで準備済み
+    - Chapter 5 を [<ins>本リポジトリの解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;を見ながら進める
 
     - または
 
@@ -181,7 +181,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 次回の日時
 
-    - 他の学習会も始まり1週間後は厳しいと思われ、2週間後（4/24 金）でどうか
+    - 2週間後 (5/1 金) は休みの人が多いと思われる
+
+    - 1週間後（4/24 金）or 曜日にこだわらず5月連休前 or 5/8 金 いずれかで相談したい
 
     - 時間は13時30分〜14時30分でよいか
 
