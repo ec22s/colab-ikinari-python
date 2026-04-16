@@ -39,6 +39,10 @@
 
     - 初回はたいていカメラ利用が未許可なのでエラーになるが、再実行してカメラ利用許可すればエラーは消えるはず
 
+    - カメラ利用の確認はたいてい2種類、下記のようなものが出る（英語の場合）
+
+        <img height=200 src="https://github.com/user-attachments/assets/9975410a-8309-4281-886b-28e41273f398">　<img height=200 src="https://github.com/user-attachments/assets/ba323249-0f28-47cc-a7e1-75bc731ce9a3">
+
     - 実行後、Colabのファイル一覧に画像 `img.jpg` が保存されていればOK
 
     - 画像をダウンロードしてちゃんと写真が撮れているか確認
@@ -156,7 +160,279 @@
 
 <br>
 
-### 5-4以降: 準備中
+### 5-4. 画像にエフェクトを追加しよう（p.158〜）
+
+- [5.1](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md#5-1-pc%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86p142)で作った画像ファイル `img.png` を使います
+
+  - `img.png` がColabのファイルにない人は、5.1をやって画像ファイルが作成されたらここに戻る
+
+  - 新規セルに、本のコード `5-4-1` (p.159) を少し変え次のように記述
+
+    ```Python
+    import cv2
+    from google.colab.patches import cv2_imshow
+
+    # 画像ファイルの読み込み
+    img = cv2.imread('img.jpg')
+
+    # 画像の表示
+    cv2_imshow(img)
+    ```
+
+  - 実行し画像が表示されたらOK、次へ進む
+
+<br>
+
+- 最初の画像処理としてセピア色への変換をします
+
+  - 新規セルに本のコード `5-4-2` (p.160〜161) をそのまま入力後、次のように修正
+
+    ```Python
+    # 先頭に1行挿入
+    + from google.colab.patches import cv2_imshow
+
+    # 本のコードの25〜26行目を修正 (画像表示をColab用に変更)
+    - cv2.imshow('Image', applied_img)
+    - cv2.waitKey(0)
+    + cv2_imshow(applied_img)
+
+    # 最終行をコメントアウト (Colabでは不要なため)
+    - cv2.destroyAllWindows()
+    + # cv2.destroyAllWindows()
+    ```
+
+  - 実行し、先ほどの画像がセピア色に変換されて表示されたらOK、次へ進む
+
+  - 出力欄で画像の下に `True` と表示されるのは正常 (cv2.imwriteの戻り値)
+
+    - 気になる場合、`適当な変数名 = cv2.imwrite(...` と変数に入れれば表示されない
+
+<br>
+
+- セピア色だけでなく様々な色変換ができます
+
+  - 前項で入力した `sepia_filter` は0〜1の数値が3行3列分ある「カラー変換行列」
+
+  - この数値を変えることで様々な色変換が可能
+
+  - 本のp.162〜164が詳しい説明、p.165〜166が様々な色変換の例
+
+  - 本のコード `5-4-3` (p.163) が任意のカラー変換行列を使う例。これを参考に、セピア以外の色変換を何か試してみよう (上手くできない人はサポートします)
+
+<br>
+
+- 次に、色変換以外の画像処理例として「エッジ抽出」をします
+
+  - 新規セルに次のように入力。本のコード `5-4-4` (p.166〜167) の不要部分を省きColab用にしたもの
+
+    ```Python
+    # 5-4-4 Colab版
+    from google.colab.patches import cv2_imshow
+    import cv2
+
+    def apply_edges(img):
+      """エッジを検出して元画像に重ね描きする関数"""
+
+      # グレースケールに変換
+      gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+
+      # エッジを検出
+      edges = cv2.Canny(gray, 100, 200)
+
+      # エッジを黒色で描画
+      img[edges == 255] = (0, 0, 0)
+
+      return img
+
+    # 画像ファイルの読み込み
+    img = cv2.imread('img.jpg')
+
+    # 画像処理を実行
+    applied_img = apply_edges(img)
+
+    # 画像の表示
+    cv2_imshow(applied_img)
+    ```
+
+  - 実行し、エッジが黒い線になった画像が表示されればOK
+
+    - 画像全体がぼやけていたりするとエッジが全く抽出されない場合もあり
+
+    - エッジ抽出の詳細は本のp.167〜168を参照
+
+  - 本のコード `5-4-5` (p.169) にならいエッジを太く目立たせる。先ほどのコードを新規セルに複製し、以下のように変更
+
+    ```Python
+    # 先頭に追加
+    import numpy as np
+
+    # 関数 apply_edges を変更
+    def apply_edges(img):
+      gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+      edges = cv2.Canny(gray, 100, 200)
+
+      # エッジを太くする
+      kernel = np.ones((3, 3), np.uint8)
+      edges_dilated = cv2.dilate(edges, kernel, iterations=1)
+
+      # エッジを黒色で描画
+      img[edges_dilated == 255] = (0, 0, 0)
+
+      return img
+      ```
+  - 実行し、先ほどより太いエッジになればOK
+
+<br>
+
+- 最後の画像処理として「ぼかし効果」をやってみます
+
+  - 新規セルに次のように入力。本のコード `5-4-6` (p.170) の不要部分を省きColab用にしたもの
+
+    ```Python
+    # 5-4-6 Colab版
+    from google.colab.patches import cv2_imshow
+    import cv2
+
+    def apply_blur(img):
+      """画像全体にぼかし効果を追加する関数"""
+      kernel = (15, 15)
+      return cv2.GaussianBlur(img, kernel, 0)
+
+    # 画像ファイルの読み込み
+    img = cv2.imread('img.jpg')
+
+    # 画像処理を実行
+    applied_img = apply_blur(img)
+
+    # 画像の表示
+    cv2_imshow(applied_img)
+    ```
+
+  - 実行して、ぼやけた画像が表示されればOK
+
+    - ただし元の画像がぼやけていると、効果が分かりにくい
+
+<br>
+
+- 複数の画像処理を組み合わせるには？
+
+  - 本節では「色変換」「エッジ抽出」「ぼかし」の3種類を別々のコードで実施
+
+  - 実際は複数の画像処理を組み合わせることが多い（例えばセピア色＋ぼかし等）
+
+  - それを実現するコードの概略は次のようになる
+
+    ```Python
+    def apply_color_tone(img): # 色変換
+      (略)
+
+    def apply_blur(img): # ぼかし
+      (略)
+
+    # 画像ファイルの読み込み
+    img = cv2.imread('img.jpg')
+
+    # 一つ目の画像処理を実行
+    applied_img_1 = apply_color_tone(img)
+
+    # 二つ目の画像処理を足す
+    applied_img_2 = apply_blur(applied_img_1)
+
+    # 画像の表示
+    cv2_imshow(applied_img_2)
+    ```
+
+    - 一つ目の画像処理を行い、その結果を次の画像処理の関数に渡している
+
+    - 画像処理に限らず、このように個々の処理ごとに関数を作り、ある関数の結果を別の関数に渡すパターンがよくある
+
+<br>
+
+### 5-5. 動画を編集しよう（p.172〜）
+
+- [5-2](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md#5-2-%E5%8B%95%E7%94%BB%E3%82%92%E6%92%AE%E5%BD%B1%E3%81%97%E3%82%88%E3%81%86p149)で作った動画ファイル `movie.mp4` を使います
+
+  - `movie.mp4` がColabのファイルにない人は、5.2をやって動画が作成されたらここに戻る
+
+  - 新規セルに次のコードを入力し実行。本のコード `5-5-1` (p.172〜173) を少し変更・簡略化し、動画を明るく色変換したもの。効果が「エッジ抽出」や「ぼかし」より分かりやすいのでこうした
+
+  - この節はColabやJupyter Notebook特有の要素なし（ファイルの場所を合わせれば任意のPython環境で実行可）
+
+    ```Python
+    # 5-5-1 簡略版
+    import cv2
+
+    def apply_color_tone(img):
+      """画像に色効果を適用する関数"""
+
+      # セピア以外の変換の例 本p.166 ⑥全体的に明るくする
+      filter = np.array([
+        [3, 0, 0],
+        [0, 3, 0],
+        [0, 0, 3]
+      ])
+      applied_img = cv2.transform(img, filter)
+
+      # 値を0〜255の範囲に変更
+      applied_img = np.clip(applied_img, 0, 255).astype(np.uint8)
+
+      return applied_img
+
+    # 動画ファイルの読み込み
+    cap = cv2.VideoCapture('movie.mp4')
+
+    # フレームレートの取得
+    frame_rate = cap.get(cv2.CAP_PROP_FPS)
+
+    # 注：本の55行目 interval はどこからも呼ばれず不要
+
+    # 動画の幅と高さを取得
+    w = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+    h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+
+    # 動画保存条件
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    out = cv2.VideoWriter('movie_edited.mp4', fourcc, frame_rate, (w, h))
+
+    # 動画再生
+    while cap.isOpened():
+      ret, img = cap.read()
+      if not ret:
+        break
+
+      # 画像処理を実行
+      out.write(apply_color_tone(img))
+
+    # ファイルの解放
+    cap.release()
+    out.release()
+    ```
+
+    - 実行すると編集後の動画が `movie_edited.mp4` に保存される。ローカルにダウンロードして再生し、明るい色に変換されていればOK
+
+  - このコードから分かること
+
+    - 動画編集も原理的には画像編集と同じ
+
+    - 動画を構成する1枚1枚の画像（フレームと言う）に変換処理をし新しいファイルに書き込んでいる
+
+  - 複数の効果を組み合わせるには？
+
+    - 5-4の最後にやった「画像へ複数の処理を行う」を、動画の各フレームに行う
+
+    - 本のコード `5-5-2` (p.175) は「エッジ抽出」→「色変換」を行う例。意欲ある人は、先ほどのコードを元に同じことに取り組んでみて下さい（上手くいかない場合はサポートします）
+
+<br>
+
+## 全体のソースコード
+
+- 本リポジトリの [colab-chapter-5.ipynb](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5.ipynb) にあり、動画の最後（複数の効果を組み合わせる例）も収録しています
+
+- 動作確認済Webブラウザ（2026年4月）
+
+  - Firefox 149.0
+
+  - Chrome 146.0
 
 <br>
 
