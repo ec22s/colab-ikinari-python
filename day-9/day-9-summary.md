@@ -3,7 +3,7 @@
 ### 概要
 - 2026.3.27 at 13:30〜14:30 オンライン
 
-- 参加者数 4（講師 1, 全体参加 4）
+- 参加者数 5（講師 1, 全体参加 4）
 
 - 録画あり（120日有効）
 
@@ -78,9 +78,9 @@
 
   - 次回の日時・内容予定：
 
-    - 今回同様、2週間後（2026.4.10 金）13時30分〜14時30分
+    - 今回同様、2週間後（2026.4.10 金）13時30分〜14時30分 → その後変更あり
 
-    - Chapter 5 も途中の `5-3` までColabで動かす解説が準備できており[（&thinsp;リンク↗&thinsp;）](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)、いずれ Chapter 5 の残りも解説を追加する予定
+    - Chapter 5 も途中の `5-3` までColabで動かす解説が準備できており[（&thinsp;リンク↗&thinsp;）](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)、いずれ Chapter 5 の残りも解説を追加する予定 → その後次回までに完了した
 
 <br>
 

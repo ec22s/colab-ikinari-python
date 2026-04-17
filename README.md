@@ -9,7 +9,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第10回 (2026.4.17)](#第10回-2026417-予定)　← 次回 都合により3週間後に変更しました
+- [第11回 (2026.4.28)](#第11回-2026428-予定)　← 次回 変則的に火曜午後です
+
+- [第10回 (2026.4.17)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-10/day-10-summary.md)　参加者の進度別に作業：Chapter 4（音声認識）, Chapter 5（画像処理）
 
 - [第9回 (2026.3.27)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-9/day-9-summary.md)　Chapter 3（未着手の参加者サポート）, Chapter 4（音声認識）初回
 
@@ -131,7 +133,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第10回 (2026.4.17) 予定
+## 第11回 (2026.4.28) 予定
 
 - 13:30〜14:30 オンライン（録画忘れずに）
 
@@ -139,15 +141,15 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- (1) 前回の振り返り
+- (1) 前回 4/17 の振り返り
 
-  - Chapter 3（本 `p.68〜`）が未着手だった人をサポートし、全ての箇所を終えた（録画が Chapter 3 の復習として最適）
+  - Chapter 4（本 `p.104〜`）を参加者と一緒に進め、[解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;にある内容を一通り終えた
 
-  - 一部の人は Chapter 4（本 `p.104〜`）に入り、マイク設定で少し手間取ったが、最終的に「マイクに発話した音声をテキスト認識させる」第一歩が出来た
+    - Colabでマイクを使うため独自に作った関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/record_auto_stop.py) を利用。チャットツールでマイクを使いながらでも設定を整えればColabで録音・音声認識でき、繰り返し処理で無限に継続できた
 
-    - 学習会がColab用に作った録音用関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/record_auto_stop.py) を利用。チャットツールでマイクを使いながらという特殊な環境でも、設定を整えれば録音〜音声認識までできると分かった
+  - 一部の人は Chapter 5（本 `p.139〜`）を&thinsp;[解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;にそって着手
 
-  - その後、録音した音声の再生機能を同関数に追加し、[Chapter 4&thinsp;の解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;にも反映した。音声認識できない場合の調査に役立つはず
+    - Colabでカメラを使うため独自に作ったクラス [`ColabCap.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/ColabCap.py) を利用。Windows + Google Chromeで問題なく写真撮影できた
 
 <br>
 
@@ -163,8 +165,6 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - [<ins>解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;を見ながら進め、不明な点は講師に質問
 
-    - Chapter 3 と同様、Colab用に独自に準備した関数を使う（マイク録音のため）
-
   - Chapter 4 終わった人
 
     - Chapter 5 を&thinsp;[<ins>解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;を見ながら進める
@@ -179,13 +179,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- (4) クロージング
+- (3) クロージング
 
-  - 次回の日時
+  - 次回の日時相談
 
-    - 2週間後 (5/1 金) は休みの人が多いと思われる
-
-    - 1週間後（4/24 金）or 曜日にこだわらず5月連休前 or 5/8 金 いずれかで相談したい
+    - 翌週金曜 (5/8) は諸事情で難しいかも
 
     - 時間は13時30分〜14時30分でよいか
 
