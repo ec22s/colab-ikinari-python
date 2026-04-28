@@ -10,6 +10,10 @@
 
 - 画像処理ライブラリで写真と動画に効果を加える
 
+- 本と違う方法で「普通の動画」をPCカメラ＋Colabで撮影・保存する
+
+  - 本Chapterで行う動画編集、Chapter 6で行う「動画からの物体検出」がしやすくなる
+
 <br>
 
 ## Chapter 5 各セクションの取り扱い
@@ -110,7 +114,7 @@
 
 - `frame_rate` を調整すれば、撮影時間と動画の長さがだいたい合って「カクカクするけど普通の動画」が撮れます
 
-- 別の方法で（静止画を1枚1枚撮らない）Colabで普通の動画を撮ることも可能で、コードは準備中です。完了したらこの文書に追記します
+- 別の方法で（静止画を1枚1枚撮らずに）Colabで普通の動画を撮る方法は&thinsp;[<ins>最後</ins>](#リンク後で設定)&thinsp;にあります
 
 <br>
 
@@ -421,6 +425,92 @@
     - 5-4の最後にやった「画像へ複数の処理を行う」を、動画の各フレームに行う
 
     - 本のコード `5-5-2` (p.175) は「エッジ抽出」→「色変換」を行う例。意欲ある人は、先ほどのコードを元に同じことに取り組んでみて下さい（上手くいかない場合はサポートします）
+
+<br>
+
+## 本と違う方法で動画をPCカメラ＋Colabで撮る
+
+### 学習会独自の関数 `VideoWriter` を使う
+
+- リポジトリにある [`VideoWriter.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/VideoWriter.py) を開き、右上にある&thinsp;Raw&thinsp;の右隣のアイコンを押してクリップボードにコピー
+
+- セルを追加しクリップボードを貼り付け実行、エラーが出ないのを確認
+
+- もう一つセルを追加し以下のコードを入力
+
+  ```Python
+  frame_rate = 30
+  duration = 10
+  out = VideoWriter('movie.mp4', duration, frame_rate, (640, 480))
+  ```
+
+- セルを実行。まだカメラ使用を許可していない場合は&thinsp;[5-1](#5-1-pc%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86p142)&thinsp;と同様に確認ダイアログ2つで許可し再実行する
+
+- 正常終了すると&thinsp;Colab&thinsp;のファイルに動画&thinsp;movie.mp4&thinsp;が保存されているはず
+
+- 以上で、本のコード `5-2-2` (p.151) と同じ動作になる
+
+<br>
+
+### 関数 `VideoWriter` の概略
+
+- ブラウザがPCのカメラから動画を取得し始める
+
+  - この処理はカメラを使うチャットWebアプリと同じ
+
+- 指定秒数（引数 duration）経ったら動画取得を停止し、動画データを&thinsp;Colab&thinsp;に送る
+
+- Colab&thinsp;側で動画データを一般的な `MP4` 形式に変換しファイルに保存する
+
+- 本と違い1フレームずつの画像取得はないためタイムラプス動画は撮れない
+
+<br>
+
+### 現状の制約
+
+- 指定秒数が経ってから動画が保存されるまで時間がかかる
+
+  - Colab&thinsp;への動画データ送信やColab&thinsp;側での変換処理があるため
+
+- 動画の縦横サイズやフレームレートが、ブラウザによって指定どおりにならない場合がある
+
+  - ブラウザのカメラ制御がまだ新しい仕様で発展途上
+
+  - Chrome (v146) サイズを 720&thinsp;x&thinsp;480 に指定しても 1024&thinsp;x&thinsp;684 になった
+
+  - Firefox (v149) フレームレートが指定と無関係に60になった
+
+- 保存した動画を、本と同様に（p.172〜）編集すると上手くいかない（調査中）
+
+<br>
+
+### 保存した動画を&thinsp;Colab&thinsp;で再生
+
+- セルを追加し以下のコードを入力
+
+  ```Python
+  from IPython.display import HTML
+  from base64 import b64encode
+
+  # 次の3行は一つ前と同じ
+  frame_rate = 30
+  duration = 10
+  out = VideoWriter('movie.mp4', duration, frame_rate, (640, 480))
+
+  if out:
+    mime = "video/mp4"
+    mp4 = open('movie.mp4', "rb").read()
+    b64 = b64encode(mp4).decode()
+    display(HTML(f"""
+      <video height="240" autoplay controls>
+        <source src="data:{mime};base64,{b64}" type="{mime}">
+      </video>
+    """));
+  ```
+
+- セルを実行し正常終了すると、出力欄に動画プレーヤが現れ自動再生される
+
+- プレーヤの大きさは動画に関係なく設定可（video&thinsp;タグの&thinsp;height&thinsp;または&thinsp;width&thinsp;で）
 
 <br>
 
