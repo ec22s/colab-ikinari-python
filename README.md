@@ -9,7 +9,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第11回 (2026.4.28)](#第11回-2026428-予定)　← 次回 変則的に火曜午後です
+- [第12回 (2026.5.15)](#第12回-2026515-予定)　← 次回 また金曜午後に戻ります
+
+- [第11回 (2026.4.28)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-11/day-11-summary.md)　Chapter 5（独自のColab用関数を使い、本と同じ撮影・録画・画像処理を実施）
 
 - [第10回 (2026.4.17)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-10/day-10-summary.md)　参加者の進度別に作業：Chapter 4（音声認識）, Chapter 5（画像処理）
 
@@ -133,61 +135,41 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第11回 (2026.4.28) 予定
+## 第12回 (2026.5.15) 予定
 
 - 13:30〜14:30 オンライン（録画忘れずに）
 
-  - 録画で見る場合、画面と同じ作業をしながら見ると良いです。不明点等はチャットで質問して下さい
+- (1) 前回 4/28 の振り返り → [サマリ](/ec22s/colab-ikinari-python/blob/main/day-11/day-11-summary.md)&thinsp;を参照
 
-<br>
+- (2) 参加者のうち1人の画面を共有してもらい、一緒に作業
 
-- (1) 前回 4/17 の振り返り
+  - 作業内容（候補）
 
-  - Chapter 4（本 `p.104〜`）を参加者と一緒に進め、[解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;にある内容を一通り終えた
+    - 前回の続き：Colab&thinsp;で普通の動画を撮って編集、Colab&thinsp;内で再生（Chapter 5 最後＋α）→ Chapter 6 に入る
 
-    - Colabでマイクを使うため独自に作った関数 [`record_auto_stop.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/record_auto_stop.py) を利用。チャットツールでマイクを使いながらでも設定を整えればColabで録音・音声認識でき、繰り返し処理で無限に継続できた
+    - または、Chapter 5 途中の人がいればそこから
 
-  - 一部の人は Chapter 5（本 `p.139〜`）を&thinsp;[解説](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;にそって着手
+    - または、それ以前から再開の人がいればそこから
 
-    - Colabでカメラを使うため独自に作ったクラス [`ColabCap.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/ColabCap.py) を利用。Windows + Google Chromeで問題なく写真撮影できた
+  - 画面を共有しない人は
 
-<br>
+    - リポジトリにある解説と本を見ながら自分の作業を進める
 
-- (2) 各自の進捗に応じて説明・サポート or もくもく
+      （解説の場所が不明な時は質問して下さい）
 
-  - Chapter 3 までで未了がある人
-
-    - どこかで詰まっている or 説明を聞きたい人：講師と会話・画面共有しながら作業
-
-    - 自分で進められそうな人：できる所まで作業し、詰まったら講師に質問
-
-  - Chapter 4 未着手 or 途中の人
-
-    - [<ins>解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)&thinsp;を見ながら進め、不明な点は講師に質問
-
-  - Chapter 4 終わった人
-
-    - Chapter 5 を&thinsp;[<ins>解説</ins>](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;を見ながら進める
-
-    - または
-
-      - 本にある説明を読む
-
-      - 本と同じ環境（ローカルのJupyter Notebook）を構築し好きな箇所をやってみる
-
-      など自由にしてもらっても可
-
-<br>
+    - または、共有されている作業画面を一緒に見る
 
 - (3) クロージング
 
   - 次回の日時相談
 
-    - 翌週金曜 (5/8) は諸事情で難しいかも
+    - 1週間後 or 2週間後 どちらがよいか
 
-    - 時間は13時30分〜14時30分でよいか
+    - 時間はいつも通り13時30分〜14時30分でよいか
 
   - 次回の内容・進め方
+
+    - そろそろ終わりが見えてきたかも？
 
   - その他あれば
 
