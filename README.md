@@ -139,7 +139,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - 13:30〜14:30 オンライン（録画忘れずに）
 
-- (1) 前回 4/28 の振り返り → [サマリ](/ec22s/colab-ikinari-python/blob/main/day-11/day-11-summary.md)&thinsp;を参照
+- (1) 前回 4/28 の振り返り → [サマリ](day-11/day-11-summary.md)&thinsp;を参照
 
 - (2) 参加者のうち1人の画面を共有してもらい、一緒に作業
 
