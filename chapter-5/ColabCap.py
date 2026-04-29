@@ -1,3 +1,5 @@
+#@title (2) 独自クラス ColabCap (本の cap = cv2.VideoCapture(0) の代用)
+
 from IPython.display import display, Javascript
 from google.colab.output import eval_js
 from base64 import b64decode
@@ -5,10 +7,6 @@ import numpy as np
 import cv2
 
 class ColabCap:
-  # 本の cap = cv2.VideoCapture(0) の代用クラス
-  # TODO: 動画撮影用メソッド追加 https://qiita.com/sueasen/items/abf2d27c888c4d6d268d
-  # サイズやフレームレートも変更可 https://qiita.com/yusuke84/items/35750017a6b12199aa39
-  # https://developer.mozilla.org/ja/docs/Web/API/Media_Capture_and_Streams_API/Constraints
 
   _js = '''
     let video = document.createElement('video');
