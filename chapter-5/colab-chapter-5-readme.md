@@ -2,7 +2,7 @@
 
 ### 概要
 
-- 学習会独自の `ColabCap` クラスを使ってPCのカメラをColabで有効化し、静止画を撮る
+- 学習会独自の `ColabCap` クラスを使ってPCのカメラを&thinsp;Colab&thinsp;で有効化し、静止画を撮る
 
 - 静止画を連続で撮って動画にする
 
@@ -10,9 +10,9 @@
 
 - 画像処理ライブラリで写真と動画に効果を加える
 
-- 本と違う方法で「普通の動画」をPCカメラ＋Colabで撮影・保存する
+- 本と違う方法で「普通の動画」をPCカメラ＋Colab&thinsp;で撮影・保存する
 
-  - 本Chapterで行う動画編集、Chapter 6で行う「動画からの物体検出」がしやすくなる
+  - 本&thinsp;Chapter&thinsp;で行う動画編集、Chapter 6&thinsp;で行う「動画からの物体検出」がしやすくなる
 
 <br>
 
@@ -24,7 +24,7 @@
 
 - p.146 コード `5-1-2` と同様の結果を得るため、以下の手順で作業します
 
-  - リポジトリにある [`ColabCap.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/ColabCap.py) を開き、右上にある `Raw` の右隣のアイコンを押してクリップボードにコピー
+  - リポジトリにある [`ColabCap.py`](./ColabCap.py) を開き、右上にある `Raw` の右隣のアイコンを押してクリップボードにコピー
 
     <img width="256" src="https://github.com/user-attachments/assets/14c9322d-b2f6-4f37-ad0d-71cd18ab3eea" />
 
@@ -177,7 +177,7 @@
     from google.colab.patches import cv2_imshow
 
     # 画像ファイルの読み込み
-    img = cv2.imread('img.jpg')
+    img = cv2.imread("img.jpg")
 
     # 画像の表示
     cv2_imshow(img)
@@ -249,7 +249,7 @@
       return img
 
     # 画像ファイルの読み込み
-    img = cv2.imread('img.jpg')
+    img = cv2.imread("img.jpg")
 
     # 画像処理を実行
     applied_img = apply_edges(img)
@@ -303,7 +303,7 @@
       return cv2.GaussianBlur(img, kernel, 0)
 
     # 画像ファイルの読み込み
-    img = cv2.imread('img.jpg')
+    img = cv2.imread("img.jpg")
 
     # 画像処理を実行
     applied_img = apply_blur(img)
@@ -334,7 +334,7 @@
       (略)
 
     # 画像ファイルの読み込み
-    img = cv2.imread('img.jpg')
+    img = cv2.imread("img.jpg")
 
     # 一つ目の画像処理を実行
     applied_img_1 = apply_color_tone(img)
@@ -354,7 +354,7 @@
 
 ### 5-5. 動画を編集しよう（p.172〜）
 
-- [5-2](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md#5-2-%E5%8B%95%E7%94%BB%E3%82%92%E6%92%AE%E5%BD%B1%E3%81%97%E3%82%88%E3%81%86p149)で作った動画ファイル `movie.mp4` を使います
+- [5-2](#5-2-%E5%8B%95%E7%94%BB%E3%82%92%E6%92%AE%E5%BD%B1%E3%81%97%E3%82%88%E3%81%86p149)&thinsp;で作った動画ファイル `movie.mp4` を使います
 
   - `movie.mp4` がColabのファイルにない人は、5.2をやって動画が作成されたらここに戻る
 
@@ -383,7 +383,7 @@
       return applied_img
 
     # 動画ファイルの読み込み
-    cap = cv2.VideoCapture('movie.mp4')
+    cap = cv2.VideoCapture("movie.mp4")
 
     # フレームレートの取得
     frame_rate = cap.get(cv2.CAP_PROP_FPS)
@@ -395,8 +395,8 @@
     h = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
     # 動画保存条件
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-    out = cv2.VideoWriter('movie_edited.mp4', fourcc, frame_rate, (w, h))
+    fourcc = cv2.VideoWriter_fourcc(*"mp4v")
+    out = cv2.VideoWriter("movie_edited.mp4", fourcc, frame_rate, (w, h))
 
     # 動画再生
     while cap.isOpened():
@@ -432,7 +432,9 @@
 
 ### 学習会独自の関数 `VideoWriter` を使う
 
-- リポジトリにある [`VideoWriter.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/VideoWriter.py) を開き、右上にある&thinsp;Raw&thinsp;の右隣のアイコンを押してクリップボードにコピー
+- 1フレームずつの画像取得をせず動画を直接作成します
+
+- リポジトリにある [`VideoWriter.py`](./VideoWriter.py) を開き、右上にある&thinsp;Raw&thinsp;の右隣のアイコンを押してクリップボードにコピー
 
 - セルを追加しクリップボードを貼り付け実行、エラーが出ないのを確認
 
@@ -441,7 +443,7 @@
   ```Python
   frame_rate = 30
   duration = 10
-  out = VideoWriter('movie.mp4', duration, frame_rate, (640, 480))
+  VideoWriter("movie.mp4", duration, frame_rate, (640, 480))
   ```
 
 - セルを実行。まだカメラ使用を許可していない場合は&thinsp;[5-1](#5-1-pc%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86p142)&thinsp;と同様に確認ダイアログ2つで許可し再実行する
@@ -480,8 +482,6 @@
 
   - Firefox (v149) フレームレートが指定と無関係に60になった
 
-- 保存した動画を、本と同様に（p.172〜）編集すると上手くいかない（調査中）
-
 <br>
 
 ### 保存した動画を&thinsp;Colab&thinsp;で再生
@@ -492,14 +492,14 @@
   from IPython.display import HTML
   from base64 import b64encode
 
-  # 次の3行は一つ前と同じ
+  # 次の3行は一つ前とほぼ同じ
   frame_rate = 30
   duration = 10
-  out = VideoWriter('movie.mp4', duration, frame_rate, (640, 480))
+  out = VideoWriter("movie.mp4", duration, frame_rate, (640, 480))
 
   if out:
     mime = "video/mp4"
-    mp4 = open('movie.mp4', "rb").read()
+    mp4 = open("movie.mp4", "rb").read()
     b64 = b64encode(mp4).decode()
     display(HTML(f"""
       <video height="240" autoplay controls>
@@ -516,7 +516,7 @@
 
 ## 全体のソースコード
 
-- 本リポジトリの [colab-chapter-5.ipynb](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5.ipynb) にあり、動画の最後（複数の効果を組み合わせる例）も収録しています
+- 本リポジトリの [colab-chapter-5.ipynb](./colab-chapter-5.ipynb)
 
 - 動作確認済Webブラウザ（2026年4月）
 
