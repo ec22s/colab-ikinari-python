@@ -13,13 +13,13 @@
 
 - (1) 今日の進め方について
 
-  - 1人の参加者が画面共有して Chapter 5 に取り組み（[解説](/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md)&thinsp;に沿ってほぼ初めから）、他の人は自分で Chapter 5 に取り組む（または作業の様子を聴く）回とした
+  - 1人の参加者が画面共有して Chapter 5 に取り組み（[解説](../chapter-5/colab-chapter-5-readme.md)&thinsp;に沿ってほぼ初めから）、他の人は自分で Chapter 5 に取り組む（または作業の様子を聴く）回とした
 
 <br>
 
 - (2) Chapter 5 ほぼ初めから&thinsp;5-4&thinsp;まで＋α
 
-  - 最初に学習会独自のクラス [`ColabCap`](/ec22s/colab-ikinari-python/blob/main/chapter-5/ColabCap.py) を準備（Colab&thinsp;で&thinsp;PC&thinsp;のカメラを使うのに必要）
+  - 最初に学習会独自のクラス [`ColabCap`](../chapter-5/ColabCap.py) を準備（Colab&thinsp;で&thinsp;PC&thinsp;のカメラを使うのに必要）
 
   - 静止画を撮影
 
@@ -39,7 +39,7 @@
 
     - 本の&thinsp;5-4。OpenCV&thinsp;と&thinsp;NumPy&thinsp;を使い&thinsp;3&thinsp;種類の画像処理を実施（色変換、エッジ抽出、ぼかし）
 
-  - 動画の編集（本の&thinsp;5-5）は次回とし、5-5&thinsp;と&thinsp;Chapter 6&thinsp;の準備として、Colab&thinsp;で動画撮影・保存するもう一つの独自関数 [`VideoWriter`](/ec22s/colab-ikinari-python/blob/main/chapter-5/VideoWriter.py) を試した
+  - 動画の編集（本の&thinsp;5-5）は次回とし、5-5&thinsp;と&thinsp;Chapter 6&thinsp;の準備として、Colab&thinsp;で動画撮影・保存するもう一つの独自関数 [`VideoWriter`](../chapter-5/VideoWriter.py) を試した
 
     - 結果OK。1枚1枚の撮影をしないので本と同程度のフレームレートで動画を撮れた
 
