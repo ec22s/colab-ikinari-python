@@ -24,7 +24,7 @@
 
 - p.146 コード `5-1-2` と同様の結果を得るため、以下の手順で作業します
 
-  - リポジトリにある [`ColabCap.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/ColabCap.py) を開き、右上にある `Raw` の右隣のアイコンを押してクリップボードにコピー
+  - リポジトリにある [`ColabCap.py`](./ColabCap.py) を開き、右上にある `Raw` の右隣のアイコンを押してクリップボードにコピー
 
     <img width="256" src="https://github.com/user-attachments/assets/14c9322d-b2f6-4f37-ad0d-71cd18ab3eea" />
 
@@ -166,7 +166,7 @@
 
 ### 5-4. 画像にエフェクトを追加しよう（p.158〜）
 
-- [5.1](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md#5-1-pc%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86p142)で作った画像ファイル `img.png` を使います
+- [5.1](#5-1-pc%E3%81%AE%E3%82%AB%E3%83%A1%E3%83%A9%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86p142)thinsp;で作った画像ファイル `img.png` を使います
 
   - `img.png` がColabのファイルにない人は、5.1をやって画像ファイルが作成されたらここに戻る
 
@@ -354,7 +354,7 @@
 
 ### 5-5. 動画を編集しよう（p.172〜）
 
-- [5-2](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5-readme.md#5-2-%E5%8B%95%E7%94%BB%E3%82%92%E6%92%AE%E5%BD%B1%E3%81%97%E3%82%88%E3%81%86p149)で作った動画ファイル `movie.mp4` を使います
+- [5-2](#5-2-%E5%8B%95%E7%94%BB%E3%82%92%E6%92%AE%E5%BD%B1%E3%81%97%E3%82%88%E3%81%86p149)&thinsp;で作った動画ファイル `movie.mp4` を使います
 
   - `movie.mp4` がColabのファイルにない人は、5.2をやって動画が作成されたらここに戻る
 
@@ -432,7 +432,7 @@
 
 ### 学習会独自の関数 `VideoWriter` を使う
 
-- リポジトリにある [`VideoWriter.py`](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/VideoWriter.py) を開き、右上にある&thinsp;Raw&thinsp;の右隣のアイコンを押してクリップボードにコピー
+- リポジトリにある [`VideoWriter.py`](./VideoWriter.py) を開き、右上にある&thinsp;Raw&thinsp;の右隣のアイコンを押してクリップボードにコピー
 
 - セルを追加しクリップボードを貼り付け実行、エラーが出ないのを確認
 
@@ -468,9 +468,9 @@
 
 ### 現状の制約
 
-- 指定秒数が経ってから動画が保存されるまで時間がかかる
+- 指定秒数が経ってから動画が保存されるまで若干時間がかかる
 
-  - Colab&thinsp;への動画データ送信やColab&thinsp;側での変換処理があるため
+  - Colab&thinsp;への動画データ送信&thinsp;~~やColab&thinsp;側での変換処理~~&thinsp;があるため（後者はその後不要になった）
 
 - 動画の縦横サイズやフレームレートが、ブラウザによって指定どおりにならない場合がある
 
@@ -479,8 +479,6 @@
   - Chrome (v146) サイズを 720&thinsp;x&thinsp;480 に指定しても 1024&thinsp;x&thinsp;684 になった
 
   - Firefox (v149) フレームレートが指定と無関係に60になった
-
-- 保存した動画を、本と同様に（p.172〜）編集すると上手くいかない（調査中）
 
 <br>
 
@@ -516,7 +514,7 @@
 
 ## 全体のソースコード
 
-- 本リポジトリの [colab-chapter-5.ipynb](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-5/colab-chapter-5.ipynb) にあり、動画の最後（複数の効果を組み合わせる例）も収録しています
+- 本リポジトリの [colab-chapter-5.ipynb](./colab-chapter-5.ipynb) にあり、動画の最後（複数の効果を組み合わせる例）も収録しています
 
 - 動作確認済Webブラウザ（2026年4月）
 

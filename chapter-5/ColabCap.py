@@ -1,5 +1,3 @@
-#@title (2) 独自クラス ColabCap (本の cap = cv2.VideoCapture(0) の代用)
-
 from IPython.display import display, Javascript
 from google.colab.output import eval_js
 from base64 import b64decode
