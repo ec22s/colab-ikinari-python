@@ -1,9 +1,6 @@
-#@title (第12回予定) 独自関数 VideoWriter : 本の cv2.VideoWriter の代用
-
 from google.colab.output import eval_js
 from IPython.display import display, Javascript
 from base64 import b64decode
-import os
 
 def VideoWriter(out_file, duration, frame_rate, wh):
 	# Colabで動画撮影・保存
@@ -105,10 +102,7 @@ def VideoWriter(out_file, duration, frame_rate, wh):
 		data = eval_js(f"""record({duration}, {frame_rate}, {wh[0]}, {wh[1]})""")
 		bin = b64decode(data.split("base64,")[1])
 		eval_js("""message("動画準備中･･･")""")
-		tmp_file = "tmp"
-		open(tmp_file, "wb").write(bin)
-		!ffmpeg -i $tmp_file $out_file -y -loglevel 0
-		os.remove(tmp_file)
+		open(out_file, "wb").write(bin)
 		eval_js("clearInfo()")
 		return True
 
