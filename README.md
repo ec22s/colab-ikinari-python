@@ -9,29 +9,29 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第12回 (2026.5.15)](#第12回-2026515-予定)　← 次回 また金曜午後に戻ります
+- [第12回 (2026.5.15)](#第12回-2026515-予定)　← 次回 また金曜午後に戻ります。時間はいつもと異なり14:30〜です
 
-- [第11回 (2026.4.28)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-11/day-11-summary.md)　Chapter 5（独自のColab用関数を使い、本と同じ撮影・録画・画像処理を実施）
+- [第11回 (2026.4.28)](day-11/day-11-summary.md)　Chapter 5（独自のColab用関数を使い、本と同じ撮影・録画・画像処理を実施）
 
-- [第10回 (2026.4.17)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-10/day-10-summary.md)　参加者の進度別に作業：Chapter 4（音声認識）, Chapter 5（画像処理）
+- [第10回 (2026.4.17)](day-10/day-10-summary.md)　参加者の進度別に作業：Chapter 4（音声認識）, Chapter 5（画像処理）
 
-- [第9回 (2026.3.27)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-9/day-9-summary.md)　Chapter 3（未着手の参加者サポート）, Chapter 4（音声認識）初回
+- [第9回 (2026.3.27)](day-9/day-9-summary.md)　Chapter 3（未着手の参加者サポート）, Chapter 4（音声認識）初回
 
-- [第8回 (2026.3.13)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-8/day-8-summary.md)　Chapter 3 続き（未完の参加者サポート）, Chapter 4（音声認識）準備まで
+- [第8回 (2026.3.13)](day-8/day-8-summary.md)　Chapter 3 続き（未完の参加者サポート）, Chapter 4（音声認識）準備まで
 
-- [第7回 (2026.2.27)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-7/day-7-summary.md)　Chapter 3 続き（独自に準備したColab用関数を使い、本と同じ機能＋αを実施）
+- [第7回 (2026.2.27)](day-7/day-7-summary.md)　Chapter 3 続き（独自に準備したColab用関数を使い、本と同じ機能＋αを実施）
 
-- [第6回 (2026.2.13)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-6/day-6-summary.md)　Chapter 2 までの進捗確認・質問・サポート、Chapter 3（声変わり機）初回
+- [第6回 (2026.2.13)](day-6/day-6-summary.md)　Chapter 2 までの進捗確認・質問・サポート、Chapter 3（声変わり機）初回
 
-- [第5回 (2026.2.6)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
+- [第5回 (2026.2.6)](day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
 
-- [第4回 (2026.1.30)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-4/day-4-summary.md)　本 Chapter 2（p.38〜66）の説明、各自作業
+- [第4回 (2026.1.30)](day-4/day-4-summary.md)　本 Chapter 2（p.38〜66）の説明、各自作業
 
-- [第3回 (2026.1.23)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-3/day-3-summary.md)　本 `1ｰ3` の質疑応答（文字列の部分一致）、ゲームの改良
+- [第3回 (2026.1.23)](day-3/day-3-summary.md)　本 `1ｰ3` の質疑応答（文字列の部分一致）、ゲームの改良
 
-- [第2回 (2026.1.16)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-2/day-2-summary.md)　本 `1ｰ3`（p.23〜36）最初のアプリ（数当てられゲーム）
+- [第2回 (2026.1.16)](day-2/day-2-summary.md)　本 `1ｰ3`（p.23〜36）最初のアプリ（数当てられゲーム）
 
-- [第1回 (2026.1.9)](https://github.com/ec22s/colab-ikinari-python/blob/main/day-1/day-1-summary.md)　本の説明、GitHubとColabの設定、最初のプログラム（Hello World）
+- [第1回 (2026.1.9)](day-1/day-1-summary.md)　本の説明、GitHubとColabの設定、最初のプログラム（Hello World）
 
 <br>
 
@@ -65,7 +65,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - Chapter 3以降は本のままだとColabで動かず、学習会オリジナルのお手本が必要
 
-    → 学習会独自の[「Colabで本のChapter 3を動かす」](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-3/colab-chapter-3-readme.md),[「Chapter 4を動かす」](https://github.com/ec22s/colab-ikinari-python/blob/main/chapter-4/colab-chapter-4-readme.md)コードを作った
+    → 学習会独自の&thinsp;[Colab&thinsp;で本の&thinsp;Chapter 3&thinsp;を動かす](chapter-3/colab-chapter-3-readme.md)&thinsp;,&thinsp;[Chapter 4&thinsp;を動かす](chapter-4/colab-chapter-4-readme.md)&thinsp;,&thinsp;[Chapter 5&thinsp;を動かす](chapter-5/colab-chapter-5-readme.md)&thinsp;コードを作った
 
     → Chapter 5 以降もColab用の改変を準備済み、後日このリポジトリに掲載予定
 
@@ -137,7 +137,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 第12回 (2026.5.15) 予定
 
-- 13:30〜14:30 オンライン（録画忘れずに）
+- 14:30〜15:30 オンライン（録画忘れずに）
 
 - (1) 前回 4/28 の振り返り → [サマリ](day-11/day-11-summary.md)&thinsp;を参照
 
@@ -165,7 +165,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - 1週間後 or 2週間後 どちらがよいか
 
-    - 時間はいつも通り13時30分〜14時30分でよいか
+    - 時間は通常の13時30分〜14時30分でよいか
 
   - 次回の内容・進め方
 

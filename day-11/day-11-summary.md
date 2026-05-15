@@ -17,7 +17,7 @@
 
 <br>
 
-- (2) Chapter 5 ほぼ初めから&thinsp;5-4&thinsp;まで＋α
+- (2) 本の Chapter 5 ほぼ初めから&thinsp;5-4&thinsp;まで＋α
 
   - 最初に学習会独自のクラス [`ColabCap`](../chapter-5/ColabCap.py) を準備（Colab&thinsp;で&thinsp;PC&thinsp;のカメラを使うのに必要）
 
@@ -43,7 +43,7 @@
 
     - 結果OK。1枚1枚の撮影をしないので本と同程度のフレームレートで動画を撮れた
 
-    - ただしデータ送信や&thinsp;Colab&thinsp;での処理に時間がかかると判明、次回までに改善を試みる
+    - ただしデータ送信や&thinsp;Colab&thinsp;での処理に時間がかかると判明、今後改善を試みる
 
 <br>
 
