@@ -60,10 +60,8 @@
     - Ｑ：動画撮影・保存の関数で、既存のファイル名を指定したら上書きされる？
 
     - Ａ：その通り。Python&thinsp;で基本的なファイル書き込み処理をしており、モードが `wb` なので上書き
-
-      ```Python
-      open(out_file, "wb").write(bin)
-      ```
+   
+      https://github.com/ec22s/colab-ikinari-python/blob/b15f53449aa7030e92212029214d95e47528a794/chapter-5/VideoWriter.py#L105
 
   - 次回の日時を相談
 
