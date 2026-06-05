@@ -2,7 +2,7 @@
 
 ### ソースコード（.ipynb&thinsp;形式)
 
-- [<ins>その&thinsp;1</ins>](./colab-chapter-6-1.ipynb)：本の&thinsp;p.180〜187&thinsp;相当
+- [<ins>その&thinsp;1</ins>](./colab-chapter-6-1.ipynb)：本の&thinsp;p.180〜185&thinsp;相当
 
   各セルを&thinsp;Colab&thinsp;に入力すると下図のようになるはず
 
