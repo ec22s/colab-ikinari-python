@@ -141,8 +141,10 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - セルの中で `#@title 〜` を入力すると 〜 部分がタイトルになる
 
+  - \# と @ の間に空白を入れても可、この方が見やすいかも
+
     ```Python
-    #@title セルのタイトル<br>改行もできる
+    # @title セルのタイトル<br>改行もできる
     ```
 
   - タイトルがあるとセルの折り畳み・展開ができる
@@ -164,6 +166,8 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
   - 作業内容
 
     - 前回の続き（Chapter 5 動画関連）→ [<ins>解説その&thinsp;2&thinsp;の途中（動画の色変換・ぼかし）</ins>](./chapter-5/colab-chapter-5-readme-2.md#%E6%9C%AC-p172173-%E3%81%A8%E5%90%8C%E6%A7%98%E3%81%AB%E5%8B%95%E7%94%BB%E3%81%AE%E8%89%B2%E5%A4%89%E6%8F%9B%E3%81%BC%E3%81%8B%E3%81%97%E3%82%92%E8%A1%8C%E3%81%84%E8%87%AA%E5%8B%95%E5%86%8D%E7%94%9F)&thinsp;から
+
+    - 時間あれば Chapter 6 に進む → [<ins>Colab&thinsp;用ソースコード</ins>](chapter-6/colab-chapter-6-1.ipynb)&thinsp;を説明しながら一緒に
 
   - 画面を共有しない人は
 
