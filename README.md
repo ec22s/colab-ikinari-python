@@ -9,7 +9,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第13回 (2026.6.5)](#第13回-202665-予定)　← 次回 金曜の13:30〜
+- [第14回 (2026.6.11)](#第14回-202611-予定)　← 次回 木曜の13:30〜
+
+- [第13回 (2026.6.5)](day-13/day-13-summary.md)　Chapter 5（Colab&thinsp;で撮影した動画に色変換・ぼかし・エッジ抽出をして再生）
 
 - [第12回 (2026.5.22)](day-12/day-12-summary.md)　Chapter 5（独自の関数を追加し、Colab&thinsp;での動画撮影〜保存〜再生を簡単に行う）
 
@@ -155,19 +157,19 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第13回 (2026.6.5) 予定
+## 第14回 (2026.6.11) 予定
 
-- 15:00〜16:00 オンライン（録画忘れずに）
+- 13:30〜14:30 オンライン（録画忘れずに）
 
-- (1) 前回 5/22 の振り返り → [<ins>サマリ</ins>](day-12/day-12-summary.md)&thinsp;参照
+- (1) 前回の振り返り → [<ins>サマリ</ins>](day-13/day-13-summary.md)&thinsp;参照
 
-- (2) 参加者のうち1人の画面を共有してもらい、一緒に作業
+- (2) 参加者の画面を共有してもらい、一緒に作業
 
   - 作業内容
 
-    - 前回の続き（Chapter 5 動画関連）→ [<ins>解説その&thinsp;2&thinsp;の途中（動画の色変換・ぼかし）</ins>](./chapter-5/colab-chapter-5-readme-2.md#%E6%9C%AC-p172173-%E3%81%A8%E5%90%8C%E6%A7%98%E3%81%AB%E5%8B%95%E7%94%BB%E3%81%AE%E8%89%B2%E5%A4%89%E6%8F%9B%E3%81%BC%E3%81%8B%E3%81%97%E3%82%92%E8%A1%8C%E3%81%84%E8%87%AA%E5%8B%95%E5%86%8D%E7%94%9F)&thinsp;から
+    - 前回の続き（Chapter 5 の最後）→ [<ins>解説その&thinsp;2（カメラで撮影した動画を編集し、最後に自動再生）</ins>](./chapter-5/colab-chapter-5-readme-2.md#chapter-5--%E7%8B%AC%E8%87%AA%E9%96%A2%E6%95%B0%E3%81%AE%E7%B7%8F%E3%81%BE%E3%81%A8%E3%82%81)
 
-    - 時間あれば Chapter 6 に進む → [<ins>Colab&thinsp;用ソースコード</ins>](chapter-6/colab-chapter-6-readme.md)&thinsp;を説明しながら一緒に
+    - Chapter 6 に進む → [<ins>Colab&thinsp;用ソースコード</ins>](chapter-6/colab-chapter-6-readme.md)&thinsp;を説明しながら一緒に
 
   - 画面を共有しない人は
 
