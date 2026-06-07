@@ -1,4 +1,4 @@
-from IPython.display import display
+from IPython.display import display, Javascript
 from base64 import b64encode
 import subprocess
 import os
