@@ -167,6 +167,8 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 作業内容
 
+    - 狭い画面での作業改善例 → [<ins>Coalab&thinsp;でコードと解説を並べて表示</ins>](util/load-markdown.md)&thinsp;
+
     - 前回の続き（Chapter 5 の最後）→ [<ins>解説その&thinsp;2（カメラで撮影した動画を編集し、最後に自動再生）</ins>](./chapter-5/colab-chapter-5-readme-2.md#chapter-5--%E7%8B%AC%E8%87%AA%E9%96%A2%E6%95%B0%E3%81%AE%E7%B7%8F%E3%81%BE%E3%81%A8%E3%82%81)
 
     - Chapter 6 に進む → [<ins>Colab&thinsp;用ソースコード</ins>](chapter-6/colab-chapter-6-readme.md)&thinsp;を説明しながら一緒に
