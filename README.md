@@ -9,7 +9,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第14回 (2026.6.11)](#%E7%AC%AC14%E5%9B%9E-2026611-%E4%BA%88%E5%AE%9A)　← 次回 木曜の13:30〜
+- [第14回 (日程調整中)]()
 
 - [第13回 (2026.6.5)](day-13/day-13-summary.md)　Chapter 5（Colab&thinsp;で撮影した動画に色変換・ぼかし・エッジ抽出をして再生）
 
@@ -151,13 +151,13 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - タイトルがあるとセルの折り畳み・展開ができる
 
-  - タイトル内で&thinsp;HTML&thinsp;タグが使える（BRで改行等）
+  - タイトル内で&thinsp;HTML&thinsp;タグが使える（BR&thinsp;で改行等）
 
   - Python&thinsp;の文法上は単なるコメント、処理に影響しない
 
 <br>
 
-## 第14回 (2026.6.11) 予定
+## 第14回予定（日程調整中）
 
 - 13:30〜14:30 オンライン（録画忘れずに）
 
@@ -165,9 +165,13 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - (2) 参加者の画面を共有してもらい、一緒に作業
 
-  - 作業内容
+  - 作業をしやすくする方法紹介
 
-    - 狭い画面での作業改善例 → [<ins>Coalab&thinsp;でコードと解説を並べて表示</ins>](util/load-markdown.md)&thinsp;
+    - PC&thinsp;画面が狭い場合 → [<ins>Coalab&thinsp;でコードと解説を並べて表示</ins>](util/load-markdown.md)
+
+    - [<ins>学習会用の独自関数・クラスを簡単に使う方法</ins>](util/load-py.md)
+
+  - 作業内容
 
     - 前回の続き（Chapter 5 の最後）→ [<ins>解説その&thinsp;2（カメラで撮影した動画を編集し、最後に自動再生）</ins>](./chapter-5/colab-chapter-5-readme-2.md#chapter-5--%E7%8B%AC%E8%87%AA%E9%96%A2%E6%95%B0%E3%81%AE%E7%B7%8F%E3%81%BE%E3%81%A8%E3%82%81)
 
