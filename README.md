@@ -167,7 +167,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 作業をしやすくする方法紹介
 
-    - PC&thinsp;画面が狭い場合 → [<ins>Coalab&thinsp;でコードと解説を並べて表示</ins>](util/load-markdown.md)
+    - PC&thinsp;画面が狭い場合 → [<ins>Colab&thinsp;でコードと解説を並べて表示</ins>](util/load-markdown.md)
 
     - [<ins>学習会用の独自関数・クラスを簡単に使う方法</ins>](util/load-py.md)
 
