@@ -169,7 +169,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - PC&thinsp;画面が狭い場合 → [<ins>Colab&thinsp;でコードと解説を並べて表示</ins>](util/load-markdown.md)
 
-    - [<ins>学習会用の独自関数・クラスを簡単に使う方法</ins>](util/load-py.md)
+    - [<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
+
+    - [<ins>完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;に読み込む</ins>](util/show-ipynb.md)
 
   - 作業内容
 
