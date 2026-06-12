@@ -24,7 +24,7 @@
 
 - 次に、下記のコードをセルに入力し実行します（&thinsp;ipynb_path&thinsp;は上で控えた&thinsp;リンク先の後半、リポジトリトップからのパス）
 
-  ```ipynb
+  ```python
   # @title chapter-6-1.ipynbをColabに読み込む
 
   import requests
