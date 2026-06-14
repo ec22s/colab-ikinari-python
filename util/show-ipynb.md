@@ -49,15 +49,15 @@
 
   <img height=256 src=Screenshot-show-ipynb.png>
 
-  - 注意：左側で&thinsp;ipynb&thinsp;を読み込んだセルのコードや出力欄を消すと、複製した右側のセルも消える
+- 注意：左側で&thinsp;ipynb&thinsp;を読み込んだセルのコードや出力欄を消すと、複製した右側のセルも消える
 
 <br>
 
 ### 補足
 
-- Web&thinsp;上に公開されている&thinsp;ipynb&thinsp;で文字コードが `UTF-8` なら、関数 `show_ipynb` の引数に&thinsp;URL&thinsp;を渡すだけで基本、何でも読み込めます。
+- Web&thinsp;上に公開されている&thinsp;ipynb&thinsp;で文字コードが `UTF-8` なら、関数 `show_ipynb` の引数に&thinsp;URL&thinsp;を渡すだけで基本、何でも読み込めます
 
-- Colab&thinsp;と&thinsp;GitHub&thinsp;の連携を設定すれば&thinsp;ipynb&thinsp;を新しいノートブックとしてインポートできますが、今回のように作業中のノートブックに読み込んで見比べる用途には不向きです。
+- Colab&thinsp;と&thinsp;GitHub&thinsp;の連携を設定すると、GitHub&thinsp;上の&thinsp;ipynb&thinsp;を新しいノートブックとして読み込めます。が、今回のように作業中のノートブックに読み込む機能はありません（2026&thinsp;年&thinsp;6&thinsp;月現在）
 
 <br>
 

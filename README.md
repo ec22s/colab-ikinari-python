@@ -9,7 +9,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第14回 (日程調整中)]()
+- [第14回 (日程調整中)](#%E7%AC%AC14%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)
 
 - [第13回 (2026.6.5)](day-13/day-13-summary.md)　Chapter 5（Colab&thinsp;で撮影した動画に色変換・ぼかし・エッジ抽出をして再生）
 
@@ -159,7 +159,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 第14回予定（日程調整中）
 
-- 13:30〜14:30 オンライン（録画忘れずに）
+- 時間未定, オンライン（録画忘れずに）
 
 - (1) 前回の振り返り → [<ins>サマリ</ins>](day-13/day-13-summary.md)&thinsp;参照
 
@@ -167,11 +167,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 作業をしやすくする方法紹介
 
-    - PC&thinsp;画面が狭い場合 → [<ins>Colab&thinsp;でコードと解説を並べて表示</ins>](util/load-markdown.md)
-
     - [<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
 
     - [<ins>完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;に読み込む</ins>](util/show-ipynb.md)
+
+    - [<ins>Colab&thinsp;でコードの右側に解説を表示</ins>](util/load-markdown.md)（&thinsp;PC&thinsp;画面が狭い時などに）
 
   - 作業内容
 
