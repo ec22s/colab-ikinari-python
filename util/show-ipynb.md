@@ -2,7 +2,7 @@
 
 <br>
 
-　<img height=384 src=Screenshot-show-ipynb.png>
+　<img height=256 src=Screenshot-show-ipynb.png>
 
 ### 趣旨
 

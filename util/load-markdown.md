@@ -2,7 +2,7 @@
 
 <br>
 
-<img height=256 src="Screenshot-double-tab.png">
+　<img height=256 src="Screenshot-double-tab.png">
 
 - Colab&thinsp;の画面を&thinsp;2&thinsp;分割し「片側に&thinsp;Markdown&thinsp;の解説を表示、もう片方でコードを入力・実行」する例
 
