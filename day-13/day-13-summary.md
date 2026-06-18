@@ -40,13 +40,15 @@
 
   - 動画のフレームレートに関し、作業者の環境で問題が発生
 
-    - 既存の動画を&thinsp;OpenCV&thinsp;で読み込み取得したフレームレートの値がおかしい。FPS&thinsp;=&thinsp;30&thinsp;のはずが&thinsp;FPS&thinsp;=&thinsp;1000&thinsp;と認識され、編集後の動画が超早送りになった
-
-    - Windows&thinsp;+&thinsp;Chrome&thinsp;ブラウザで発生。macOS&thinsp;+&thinsp;Chrome&thinsp;では問題なかった
+    - 既存の動画を&thinsp;OpenCV&thinsp;で読み込み取得したフレームレートの値がおかしい。FPS&thinsp;=&thinsp;30&thinsp;のはずが&thinsp;FPS&thinsp;=&thinsp;1000&thinsp;と認識され、編集後の動画が超早送りになった（Windows&thinsp;+&thinsp;Chrome&thinsp;で）
 
     - 検証は今後の課題とし、今回は編集後の動画のフレームレートに直接&thinsp;30&thinsp;を指定し問題を回避した
 
-  - 同様に、本&thinsp;p.175&thinsp;と同じ「色変換＋エッジ強調」の画像処理に取り組む
+    - その後、独自関数 `VideoWriter` が動画を作る時点でフレームレートの設定がおかしいと分かり修正した
+
+    - macOS&thinsp;+&thinsp;Chrome, Firefox&thinsp;では、フレームレートがおかしい動画も再生時にフレームレートが何となく是正され、問題に気付くのが遅れた
+
+  - 続いて、本&thinsp;p.175&thinsp;と同じ「色変換＋エッジ強調」の画像処理に取り組む
 
     - 変更点は色変換のパラメータと画像処理だけ
 
