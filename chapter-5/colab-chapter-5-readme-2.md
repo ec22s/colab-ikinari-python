@@ -260,11 +260,11 @@
 
 - [<ins>前の解説</ins>](./colab-chapter-5-readme.md)&thinsp;の内容も含め、すべて [`colab-chapter-5.ipynb`](./colab-chapter-5.ipynb) に収録
 
-- 動作確認済&thinsp;Web&thinsp;ブラウザ（&thinsp;2026&thinsp;年&thinsp;5&thinsp;月）
+- 動作確認済&thinsp;Web&thinsp;ブラウザ（&thinsp;2026&thinsp;年&thinsp;6&thinsp;月）
 
-  - Chrome 146.0
+  - Chrome 148.0
 
-  - Firefox 149.0（カメラで撮った動画のフレームレートがおかしい場合あり）
+  - Firefox 151.0
 
 <br>
 
