@@ -171,9 +171,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 3. [<ins>コードの右側に&thinsp;Markdown&thinsp;の解説を表示</ins>](util/load-markdown.md)
 
-  - 4. 完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;GitHub&thinsp;から新しいノートブックとして読み込む
-
-    - 画面で説明します。資料は後日追加予定
+  - 4. 完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;GitHub&thinsp;から新しいノートブックとして読み込む（画面で説明します。資料は後日追加予定）
 
 - (3) 参加者の画面を共有してもらい、一緒に作業
 
