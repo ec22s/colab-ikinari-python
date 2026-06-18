@@ -1,4 +1,4 @@
-## 完成形のipynbファイルをColabに読み込む
+## コードの右側に完成形のipynbファイルを表示
 
 <br>
 
@@ -10,7 +10,7 @@
 
 - そこで、Web&thinsp;上の任意の&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;に読み込み表示する関数 [`show_ipynb.py`](./show_ipynb.py) を作りました。セル毎に背景色付きブロックとして表示します。
 
-- 各セルの冒頭にコピーボタンがあり、押すとセルの中身がクリップボードにコピーされます（ブラウザによって動かない場合あり）
+- 各セルの冒頭にコピーボタンがあり、押すとセルの中身がクリップボードにコピーされます（古いブラウザ等では動かない場合あり）
 
 - 上の画像のように&thinsp;Colab&thinsp;でセルを左右に並べる機能を使えば、両方を見比べながら作業ができ便利です。
 
@@ -57,7 +57,7 @@
 
 - Web&thinsp;上に公開されている&thinsp;ipynb&thinsp;で文字コードが `UTF-8` なら、関数 `show_ipynb` の引数に&thinsp;URL&thinsp;を渡すだけで基本、何でも読み込めます
 
-- Colab&thinsp;と&thinsp;GitHub&thinsp;の連携を設定すると、GitHub&thinsp;上の&thinsp;ipynb&thinsp;を新しいノートブックとして読み込めます。が、今回のように作業中のノートブックに読み込む機能はありません（2026&thinsp;年&thinsp;6&thinsp;月現在）
+- 新しいノートブックとして&thinsp;GitHub&thinsp;上の&thinsp;ipynb&thinsp;を読み込む方法もあります。本リポジトリのように&thinsp;Public&thinsp;なものなら、Colab&thinsp;と&thinsp;GitHub&thinsp;の連携設定も不要です（2026&thinsp;年&thinsp;6&thinsp;月現在）こちらも後日紹介する予定です
 
 <br>
 
