@@ -165,18 +165,25 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - (2) 作業をしやすくする方法紹介
 
-  1. [<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
+  - 1. [<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
 
-  2. [<ins>コードの右側に完成形の&thinsp;ipynb&thinsp;ファイルを表示</ins>](util/show-ipynb.md)
+  - 2. [<ins>コードの右側に完成形の&thinsp;ipynb&thinsp;ファイルを表示</ins>](util/show-ipynb.md)
 
-  3. [<ins>コードの右側に&thinsp;Markdown&thinsp;の解説を表示</ins>](util/load-markdown.md)
+  - 3. [<ins>コードの右側に&thinsp;Markdown&thinsp;の解説を表示</ins>](util/load-markdown.md)
 
+  - 4. 完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;GitHub&thinsp;から新しいノートブックとして読み込む
+
+    - 画面で説明します。資料は後日追加予定
 
 - (3) 参加者の画面を共有してもらい、一緒に作業
 
-  - 前回の続き（Chapter 5&thinsp;の最後）： (2) 2. の便利な方法で
+  - 前回の続き（Chapter 5&thinsp;の最後）： (2) 4. の便利な方法で
 
-    - &thinsp;Chapter 5&thinsp;の完成形&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;に読み込む
+    - GitHub&thinsp;リポジトリ：`ec22s/colab-ikinari-python`
+
+    - ipynb&thinsp;ファイル：`chapter-5/prepare-chapter-5.ipynb`
+
+    - GitHub&thinsp;から上手く読み込めない場合は手動で新しいノートブックを作り&thinsp;(2) 2. の方法で
 
       ```python
       # @title chapter-5.ipynbをColabに読み込む
@@ -203,9 +210,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - Chapter 6&thinsp;の初回
 
-    - 新しいノートブックを作成
+    - 上と同様、完成形&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む。対象のファイルだけ変更
 
-    - 上と同様、完成形&thinsp;ipynb&thinsp;ファイルを読み込む。対象のパスだけ変更
+      - ipynb&thinsp;ファイル：`chapter-6/prepare-chapter-6-1.ipynb`
+
+    - GitHub&thinsp;から上手く読み込めない場合は手動で新しいノートブックを作り&thinsp;(2) 2. の方法で
 
       ```
       ipynb_path = "chapter-6/colab-chapter-6-1.ipynb"

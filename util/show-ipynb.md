@@ -57,7 +57,7 @@
 
 - Web&thinsp;上に公開されている&thinsp;ipynb&thinsp;で文字コードが `UTF-8` なら、関数 `show_ipynb` の引数に&thinsp;URL&thinsp;を渡すだけで基本、何でも読み込めます
 
-- 新しいノートブックとして&thinsp;GitHub&thinsp;上の&thinsp;ipynb&thinsp;を読み込む方法もあります。本リポジトリのように&thinsp;Public&thinsp;なものなら、Colab&thinsp;と&thinsp;GitHub&thinsp;の連携設定も不要です（2026&thinsp;年&thinsp;6&thinsp;月現在）こちらも後日紹介する予定です
+- 新しいノートブックとして&thinsp;GitHub&thinsp;上の&thinsp;ipynb&thinsp;を読み込む方法もあります。本リポジトリのように&thinsp;Public&thinsp;なものなら、Colab&thinsp;と&thinsp;GitHub&thinsp;の連携設定も不要です（2026&thinsp;年&thinsp;6&thinsp;月現在）こちらも別途紹介し、資料を後日追加する予定です
 
 <br>
 
