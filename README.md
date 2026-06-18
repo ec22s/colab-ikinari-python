@@ -163,21 +163,65 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - (1) 前回の振り返り → [<ins>サマリ</ins>](day-13/day-13-summary.md)&thinsp;参照
 
-- (2) 参加者の画面を共有してもらい、一緒に作業
+- (2) 作業をしやすくする方法紹介
 
-  - 作業をしやすくする方法紹介
+  1. [<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
 
-    - [<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
+  1. [<ins>完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;に読み込む</ins>](util/show-ipynb.md)
 
-    - [<ins>完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;に読み込む</ins>](util/show-ipynb.md)
+  1. [<ins>Colab&thinsp;でコードの右側に解説を表示</ins>](util/load-markdown.md)（&thinsp;PC&thinsp;画面が狭い時などに）
 
-    - [<ins>Colab&thinsp;でコードの右側に解説を表示</ins>](util/load-markdown.md)（&thinsp;PC&thinsp;画面が狭い時などに）
 
-  - 作業内容
+- (3) 参加者の画面を共有してもらい、一緒に作業
 
-    - 前回の続き（Chapter 5 の最後）→ [<ins>解説その&thinsp;2（カメラで撮影した動画を編集し、最後に自動再生）</ins>](./chapter-5/colab-chapter-5-readme-2.md#chapter-5--%E7%8B%AC%E8%87%AA%E9%96%A2%E6%95%B0%E3%81%AE%E7%B7%8F%E3%81%BE%E3%81%A8%E3%82%81)
+  - 前回の続き（Chapter 5&thinsp;の最後）： (2) 2. の便利な方法で
 
-    - Chapter 6 に進む → [<ins>Colab&thinsp;用ソースコード</ins>](chapter-6/colab-chapter-6-readme.md)&thinsp;を説明しながら一緒に
+    - &thinsp;Chapter 5&thinsp;の完成形&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;に読み込む
+
+      ```python
+      # @title chapter-5.ipynbをColabに読み込む
+
+      import requests
+
+      ipynb_path = "chapter-5/colab-chapter-5.ipynb"
+
+      branch = "https://github.com/ec22s/colab-ikinari-python/raw/refs/heads/main"
+      func_path = "util/show_ipynb.py"
+      exec(requests.get(f"{branch}/{func_path}", allow_redirects=True).content)
+      show_ipynb(f"{branch}/{ipynb_path}")
+      ```
+
+    - 完成形のコードを右側に複製して表示
+
+    - 左側にセルを3つ追加し、右側から以下3つをコピーして順番に実行、結果を確認
+
+      - (2) Chapter 5用の独自クラス・関数をまとめて準備
+
+      - (18) Chapter 5 最後：動画撮影〜色変換とエッジ強調〜自動再生をまとめて
+
+      - 補足：独自関数 VideoWriter の最新版で、動画のフレームレートが正常になった
+
+  - Chapter 6&thinsp;の初回
+
+    - 新しいノートブックを作成
+
+    - 上と同様、完成形&thinsp;ipynb&thinsp;ファイルを読み込む。対象のパスだけ変更
+
+      ```
+      ipynb_path = "chapter-6/colab-chapter-6-1.ipynb"
+      ```
+
+    - 完成形のコードを右側に複製して表示
+
+    - 右側の各セルについて
+
+      - 内容を確認
+
+      - 左側にセルを追加して必要な部分を入力
+
+      - 実行して結果を確認
+
+      - エラーや不明点などあれば質問
 
   - 画面を共有しない人は
 
@@ -185,7 +229,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - または、以前の内容でやり残しがあればその自習等
 
-- (3) クロージング
+- (4) クロージング
 
   - 次回の日時・内容・進め方について
 
