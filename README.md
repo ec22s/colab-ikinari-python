@@ -165,13 +165,13 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - (2) 作業をしやすくする方法紹介
 
-  - 1. [<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
+  1．[<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
 
-  - 2. [<ins>コードの右側に完成形の&thinsp;ipynb&thinsp;ファイルを表示</ins>](util/show-ipynb.md)
+  2．[<ins>コードの右側に完成形の&thinsp;ipynb&thinsp;ファイルを表示</ins>](util/show-ipynb.md)
 
-  - 3. [<ins>コードの右側に&thinsp;Markdown&thinsp;の解説を表示</ins>](util/load-markdown.md)
+  3．[<ins>コードの右側に&thinsp;Markdown&thinsp;の解説を表示</ins>](util/load-markdown.md)
 
-  - 4. 完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;GitHub&thinsp;から新しいノートブックとして読み込む（画面で説明します。資料は後日追加予定）
+  4．完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;GitHub&thinsp;から新しいノートブックとして読み込む（画面で説明します。資料は後日追加予定）
 
 - (3) 参加者の画面を共有してもらい、一緒に作業
 
