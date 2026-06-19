@@ -63,6 +63,12 @@
 
 - (4) クロージング
 
+  - 質問：[<ins>学習会用の独自関数・クラスを簡単に使う</ins>](../util/load-py.md)&thinsp;の手法について
+
+    - Q：説明の最後に「本リポジトリに限らず、Web&thinsp;で公開されている&thinsp;Python&thinsp;スクリプトなら同じ方法で&thinsp;Colab&thinsp;に読み込み実行でき」るとあるが、HTML&thinsp;+&thinsp;JavaScript&thinsp;で例えれば `< script src="...">` で読み込むようなもの？
+
+    - A：その通り. ただし&thinsp;JavaScript&thinsp;はブラウザ内で実行されるのに対し、Colab&thinsp;上の&thinsp;Python&thinsp;はファイル操作などより広いことが出来てしまう. なので補足に書いた危険性に留意する必要がある
+
   - 質問：本&thinsp;p.162〜166&thinsp;にあるカラー変換行列の詳細について → 調べて次回以降に回答予定
 
   - 次回の内容・日時について
