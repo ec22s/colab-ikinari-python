@@ -42,7 +42,7 @@ class ColabCap2:
   def __init__(self, quality=0.8, first_wait_sec=0): # 0.25):
     self.quality = quality
     self.first_wait_sec = first_wait_sec
-    display(Javascript(ColabCap._js))
+    display(Javascript(ColabCap2._js))
     self._is_opened = True
 
   def isOpened(self):
