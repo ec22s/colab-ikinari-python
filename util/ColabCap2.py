@@ -7,16 +7,15 @@ import cv2
 class ColabCap2:
 
   _js = '''
-    let output = document.querySelector("#output-area");
     let video = document.createElement('video');
     let canvas = document.createElement('canvas');
     let stream = null;
 
-    async function createDom() {
+    async function createDom(preview) {
       if (stream) return;
       stream = await navigator.mediaDevices.getUserMedia({ video: true });
       video.srcObject = stream;
-      output.appendChild(video);
+      if (preview) document.querySelector("#output-area").appendChild(video);
       await video.play();
     }
 
@@ -27,8 +26,8 @@ class ColabCap2:
       canvas = null;
     }
 
-    async function cap(quality, waitSec) {
-      if (!stream) await createDom();
+    async function cap(quality, waitSec, preview) {
+      if (!stream) await createDom(preview);
       await new Promise((resolve) => setTimeout(resolve, waitSec * 10**3));
       canvas.width = video.videoWidth;
       canvas.height = video.videoHeight;
@@ -39,9 +38,10 @@ class ColabCap2:
 
   is_opened = False
 
-  def __init__(self, quality=0.8, first_wait_sec=0): # 0.25):
+  def __init__(self, quality=0.8, first_wait_sec=0.25, preview=False):
     self.quality = quality
     self.first_wait_sec = first_wait_sec
+    self.preview = preview
     display(Javascript(self._js))
     self.is_opened = True
 
@@ -50,7 +50,9 @@ class ColabCap2:
 
   def read(self):
     try:
-      data = eval_js(f'cap({ self.quality }, { self.first_wait_sec })')
+      data = eval_js(
+        f"cap({ self.quality }, { self.first_wait_sec }), { self.preview })"
+      )
       self.first_wait_sec = 0
       image_bytes = b64decode(data.split(',')[1])
       jpg_as_np = np.frombuffer(image_bytes, dtype=np.uint8)
