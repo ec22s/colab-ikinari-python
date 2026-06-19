@@ -4,7 +4,7 @@ from base64 import b64decode
 import numpy as np
 import cv2
 
-class ColabCap:
+class ColabCap2:
 
   _js = '''
     let output = document.querySelector("#output-area");
