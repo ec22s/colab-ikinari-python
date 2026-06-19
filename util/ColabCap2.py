@@ -51,7 +51,7 @@ class ColabCap2:
   def read(self):
     try:
       data = eval_js(
-        f"cap({ self.quality }, { self.first_wait_sec }), { self.preview })"
+        f"cap({ self.quality }, { self.first_wait_sec }, { self.preview })"
       )
       self.first_wait_sec = 0
       image_bytes = b64decode(data.split(',')[1])
