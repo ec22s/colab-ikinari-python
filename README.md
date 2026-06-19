@@ -9,7 +9,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第14回 (日程調整中)](#%E7%AC%AC14%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)
+- [第15回 (日程調整中)](#%E7%AC%AC15%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)
+
+- [第14回 (2026.6.18)](day-14/day-14-summary.md)　作業手順の改善、Chapter 5&thinsp;最後（動画撮影〜色変換・エッジ抽出して再生）
 
 - [第13回 (2026.6.5)](day-13/day-13-summary.md)　Chapter 5（Colab&thinsp;で撮影した動画に色変換・ぼかし・エッジ抽出をして再生）
 
@@ -51,35 +53,36 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 <br>
 
 ## 学習会の趣旨
-- 何より本が良い
+
+### 何より本が良い
 
   - まず作って楽しむ方向がプログラミング入門に最適
 
   - レイアウトが読みやすく図が多い
 
-  - 正規表現やOpenCVなど中級者にも有用
+  - 正規表現や&thinsp;OpenCV&thinsp;など中級者にも有用
 
   - 一部の内容は初心者にやや難しいが、後々読み返して理解を試みると役に立つ
 
 <br>
 
-- Colabで動かすオリジナリティと良さ
+### Colabで動かすオリジナリティと良さ
 
   - 本の内容だけ扱うなら学習会をするまでもない（自習と個別サポートで十分）
 
-  - Chapter 3以降は本のままだとColabで動かず、学習会オリジナルのお手本が必要
+  - Chapter 3&thinsp;以降は本のままだとColabで動かず、学習会独自の&thinsp;+&thinsp;α&thinsp;が必要
 
-    → 学習会独自の&thinsp;[Colab&thinsp;で本の&thinsp;Chapter 3&thinsp;を動かす](chapter-3/colab-chapter-3-readme.md)&thinsp;,&thinsp;[Chapter 4&thinsp;を動かす](chapter-4/colab-chapter-4-readme.md)&thinsp;,&thinsp;[Chapter 5&thinsp;を動かす](chapter-5/colab-chapter-5-readme.md)&thinsp;コードを作った
+    → オリジナルの関数・クラスを作り、Chapter 3&thinsp;以降も本と同様のことが&thinsp;Colab&thinsp;でできるようにした
 
-    → Chapter 5 以降もColab用の改変を準備済み、後日このリポジトリに掲載予定
+    → 詳細は各章の&thinsp;readme&thinsp;やフォルダ内を参照
 
-  - ローカル環境よりColabでやる方がシェアしやすく発展性がある
+  - ローカル環境より&thinsp;Colab&thinsp;でやる方がシェアしやすく発展性がある
 
-  - Colabに慣れれば他のことにも使える（データ分析や機械学習等）
+  - Colab&thinsp;に慣れれば他のことにも使える（データ分析や機械学習等）
 
 <br>
 
-- GitHubにも慣れる（資料、学習会オリジナルのコードはここに集約）
+### GitHubにも慣れる（資料、学習会オリジナルのコードはここに集約）
 
   - ソースコードの共有ツールとして事実上デファクト
 
@@ -87,9 +90,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 過去回のサマリから
+## 過去回の内容から
 
-- プログラミングとタイピング
+### プログラミングとタイピング
 
   - タッチタイプ（キーボードを見ずホームポジションから打つ）は必須
 
@@ -101,9 +104,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 頻度の多いマウス（ポインタ）操作は、ショートカットキーを調べて覚える
 
+  - 範囲選択はできるだけマウスを使わず、Shift&thinsp;+&thinsp;カーソルキーやダブル（トリプル）クリック等を活用する
+
 <br>
 
-- コードを書く時の補足
+### コードを書く時の補足
 
   - コードのうちコメント（`#` で始まる行）は時間節約のため入力しなくても可
 
@@ -123,7 +128,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- Colab用の便利な設定：行番号とインデント（字下げ）の縦線を表示
+### Colab用の便利な設定：行番号とインデント（字下げ）の縦線を表示
 
   - 右上の歯車アイコンで設定画面を開く → 左側でエディタをクリック → 少し下へスクロール → 行番号とインデントガイトを各々チェック
 
@@ -131,7 +136,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- Colab&thinsp;の入力補完を活用しよう
+### Colab&thinsp;の入力補完を活用しよう
 
   - 候補の選択はキーボードの上下カーソルで、確定はタブでできる
 
@@ -139,7 +144,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-- Colab&thinsp;のセルにタイトルを付けると便利
+### Colab&thinsp;のセルにタイトルを付けると便利
 
   - セルの中で `#@title 〜` を入力すると 〜 部分がタイトルになる
 
@@ -157,86 +162,55 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第14回予定（日程調整中）
+### このリポジトリにある&thinsp;ipynb&thinsp;ファイルを、Colab&thinsp;の新しいノートブックとして読み込む
+
+  - Colab&thinsp;で「ノートブックを開く」メニューを呼び出す
+
+    方法：[<ins>Colab&thinsp;のトップ</ins>](https://colab.research.google.com)&thinsp;を開くか、Colab&thinsp;のファイルメニュー（左上）から選択
+
+  - ノートブックを開く画面が出たら、タブ（左側）で&thinsp;GitHub&thinsp;を選択
+
+    ⚠️ GitHub&thinsp;へのログインや&thinsp;Colab&thinsp;との連携を促すダイアログが出たら、何もせず閉じて右上の「プライベートリポジトリを含める」チェックを外す。このリポジトリはプライベートでないのでそれらは不要
+
+  - GitHub&thinsp;を開く画面で、一番上の検索欄にこのリポジトリの情報 `ec22s/colab-ikinari-python` を入力し検索
+
+  - ipynb&thinsp;ファイルのリストが出たら、対象のファイルを探してクリック
+
+  - 正常に開けたら、ファイル名（左上）の先頭に&thinsp;GitHub&thinsp;のアイコンがあるはず
+
+  - このノートブックを編集したり、実行して結果を保存したい場合、左上のファイルメニューから&thinsp;Google Drive&thinsp;にコピー保存してから行う
+
+    GitHub&thinsp;への保存もできるが少々説明が要るので、別の機会に
+
+<br>
+
+## 第15回予定（日程調整中）
 
 - オンライン（録画忘れずに）
 
-- (1) 前回の振り返り → [<ins>サマリ</ins>](day-13/day-13-summary.md)&thinsp;参照
+- (1) 前回の振り返り → [<ins>サマリ</ins>](day-14/day-14-summary.md)&thinsp;参照
 
-- (2) 作業をしやすくする方法紹介
-
-  1．[<ins>学習会用の独自関数・クラスを簡単に使う</ins>](util/load-py.md)
-
-  2．[<ins>コードの右側に完成形の&thinsp;ipynb&thinsp;ファイルを表示</ins>](util/show-ipynb.md)
-
-  3．[<ins>コードの右側に&thinsp;Markdown&thinsp;の解説を表示</ins>](util/load-markdown.md)
-
-  4．完成形の&thinsp;ipynb&thinsp;ファイルを&thinsp;GitHub&thinsp;から新しいノートブックとして読み込む（画面で説明します。資料は後日追加予定）
-
-- (3) 参加者の画面を共有してもらい、一緒に作業
-
-  - 前回の続き（Chapter 5&thinsp;の最後）： (2) 4. の便利な方法で
-
-    - GitHub&thinsp;リポジトリ：`ec22s/colab-ikinari-python`
-
-    - ipynb&thinsp;ファイル：`chapter-5/prepare-chapter-5.ipynb`
-
-    - GitHub&thinsp;から上手く読み込めない場合は手動で新しいノートブックを作り&thinsp;(2) 2. の方法で
-
-      ```python
-      # @title chapter-5.ipynbをColabに読み込む
-
-      import requests
-
-      ipynb_path = "chapter-5/colab-chapter-5.ipynb"
-
-      branch = "https://github.com/ec22s/colab-ikinari-python/raw/refs/heads/main"
-      func_path = "util/show_ipynb.py"
-      exec(requests.get(f"{branch}/{func_path}", allow_redirects=True).content)
-      show_ipynb(f"{branch}/{ipynb_path}")
-      ```
-
-    - 完成形のコードを右側に複製して表示
-
-    - 左側にセルを3つ追加し、右側から以下3つをコピーして順番に実行、結果を確認
-
-      - (2) Chapter 5用の独自クラス・関数をまとめて準備
-
-      - (18) Chapter 5 最後：動画撮影〜色変換とエッジ強調〜自動再生をまとめて
-
-      - 補足：独自関数 VideoWriter の最新版で、動画のフレームレートが正常になった
+- (2) 参加者の画面を共有してもらい、一緒に作業
 
   - Chapter 6&thinsp;の初回
 
-    - 上と同様、完成形&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む。対象のファイルだけ変更
+    - GitHub&thinsp;の作業用&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む
 
-      - ipynb&thinsp;ファイル：`chapter-6/prepare-chapter-6-1.ipynb`
+      - 手順は&thinsp;[<ins>前項の最後</ins>](#%E3%81%93%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AB%E3%81%82%E3%82%8Bipynb%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E3%80%81Colab%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%8E%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%82%80)&thinsp;にあるとおり
 
-    - GitHub&thinsp;から上手く読み込めない場合は手動で新しいノートブックを作り&thinsp;(2) 2. の方法で
+      - ipynb&thinsp;ファイル名：準備中
 
-      ```
-      ipynb_path = "chapter-6/colab-chapter-6-1.ipynb"
-      ```
+    - 読み込み後、ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
 
-    - 完成形のコードを右側に複製して表示
-
-    - 右側の各セルについて
-
-      - 内容を確認
-
-      - 左側にセルを追加して必要な部分を入力
-
-      - 実行して結果を確認
-
-      - エラーや不明点などあれば質問
+    - 作業内容は各セルのコメントを参照、不明点は随時質問を
 
   - 画面を共有しない人は
 
-    - 同じ箇所を、画面・リポジトリの解説・本を適宜見ながら自習
+    - 同じ内容を、画面や作業用&thinsp;ipynb&thinsp;ファイル等を見ながら取り組む
 
     - または、以前の内容でやり残しがあればその自習等
 
-- (4) クロージング
+- (3) クロージング
 
   - 次回の日時・内容・進め方について
 
