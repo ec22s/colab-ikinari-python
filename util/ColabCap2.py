@@ -41,7 +41,7 @@ class ColabCap2:
   def __init__(self, quality=0.8, first_wait_sec=0.25, preview=False):
     self.quality = quality
     self.first_wait_sec = first_wait_sec
-    self.preview = preview
+    self.preview = "true" if preview else "false"
     display(Javascript(self._js))
     self.is_opened = True
 
