@@ -20,9 +20,8 @@ class ColabCap:
       await video.play();
     }
 
-    async function removeDom() {
+    async function stop() {
       await stream.getVideoTracks()[0].stop();
-      output.removeChild(video);
       video = null;
       stream = null;
       canvas = null;
@@ -63,4 +62,4 @@ class ColabCap:
 
   def release(self):
     self._is_opened = False
-    eval_js('removeDom()')
+    eval_js('stop()')
