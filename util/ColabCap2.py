@@ -37,16 +37,16 @@ class ColabCap2:
     }
   '''
 
-  _is_opened = False
+  is_opened = False
 
   def __init__(self, quality=0.8, first_wait_sec=0): # 0.25):
     self.quality = quality
     self.first_wait_sec = first_wait_sec
-    display(Javascript(ColabCap2._js))
-    self._is_opened = True
+    display(Javascript(self._js))
+    self.is_opened = True
 
   def isOpened(self):
-    return self._is_opened
+    return self.is_opened
 
   def read(self):
     try:
@@ -57,9 +57,9 @@ class ColabCap2:
       return True, cv2.imdecode(jpg_as_np, flags=1)
     except Exception as err:
       print(str(err))
-      self._is_opened = False
+      self.is_opened = False
       return False, None
 
   def release(self):
-    self._is_opened = False
+    self.is_opened = False
     eval_js('stop()')
