@@ -21,7 +21,7 @@
 
   　3　[<ins>コードの右側に&thinsp;Markdown&thinsp;の解説を表示</ins>](../util/load-markdown.md)
 
-  　4　[<ins>このリポジトリにある&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;の新しいノートブックとして読み込む</ins>](../README.md#%E3%81%93%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AB%E3%81%82%E3%82%8Bipynb%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92%E3%80%81Colab%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%8E%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%82%80)
+  　4　[<ins>このリポジトリにある&thinsp;ipynb&thinsp;ファイルを&thinsp;Colab&thinsp;の新しいノートブックとして読み込む</ins>](../README.md#%E3%81%93%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AB%E3%81%82%E3%82%8Bipynb%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92colab%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%8E%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%82%80)
 
 <br>
 
