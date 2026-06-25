@@ -176,6 +176,8 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - ipynb&thinsp;ファイルのリストが出たら、対象のファイルを探してクリック
 
+    初回は警告が出る（Colab&thinsp;の外で作成されたファイルだから）. 実行を選択する
+
   - 正常に開けたら、ファイル名（左上）の先頭に&thinsp;GitHub&thinsp;のアイコンがあるはず
 
   - このノートブックを編集したり、実行して結果を保存したい場合、左上のファイルメニューから&thinsp;Google Drive&thinsp;にコピー保存してから行う
