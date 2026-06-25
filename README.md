@@ -176,7 +176,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - ipynb&thinsp;ファイルのリストが出たら、対象のファイルを探してクリック
 
-    初回は警告が出る（Colab&thinsp;の外で作成されたファイルだから）. 実行を選択する
+    読み込みまたは初回のセル実行前に警告が出る（Colab&thinsp;の外で作成されたファイルだから）
 
   - 正常に開けたら、ファイル名（左上）の先頭に&thinsp;GitHub&thinsp;のアイコンがあるはず
 
