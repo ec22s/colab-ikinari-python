@@ -164,19 +164,29 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ### このリポジトリにある&thinsp;ipynb&thinsp;ファイルを、Colab&thinsp;の新しいノートブックとして読み込む
 
-  - Colab&thinsp;で「ノートブックを開く」メニューを呼び出す
+  - 方法&thinsp;1：Colab&thinsp;で「ノートブックを開く」メニューから
 
-    方法：[<ins>Colab&thinsp;のトップ</ins>](https://colab.research.google.com)&thinsp;を開くか、Colab&thinsp;のファイルメニュー（左上）から選択
+    - [<ins>Colab&thinsp;のトップ</ins>](https://colab.research.google.com)&thinsp;を開くか、Colab&thinsp;のファイルメニュー（左上）から選択
 
-  - ノートブックを開く画面が出たら、タブ（左側）で&thinsp;GitHub&thinsp;を選択
+    - ノートブックを開く画面が出たら、タブ（左側）で&thinsp;GitHub&thinsp;を選択
 
-    ⚠️ GitHub&thinsp;へのログインや&thinsp;Colab&thinsp;との連携を促すダイアログが出たら、何もせず閉じて右上の「プライベートリポジトリを含める」チェックを外す。このリポジトリはプライベートでないのでそれらは不要
+      ⚠️ GitHub&thinsp;へのログインや&thinsp;Colab&thinsp;との連携を促すダイアログが出たら、何もせず閉じて右上の「プライベートリポジトリを含める」チェックを外す。このリポジトリはプライベートでないのでそれらは不要
 
-  - GitHub&thinsp;を開く画面で、一番上の検索欄にこのリポジトリの情報 `ec22s/colab-ikinari-python` を入力し検索
+    - GitHub&thinsp;を開く画面で、一番上の検索欄にこのリポジトリの情報 `ec22s/colab-ikinari-python` を入力し検索
 
-  - ipynb&thinsp;ファイルのリストが出たら、対象のファイルを探してクリック
+    - ipynb&thinsp;ファイルのリストが出たら、対象のファイルを探してクリック
 
-    読み込みまたは初回のセル実行前に警告が出る（Colab&thinsp;の外で作成されたファイルだから）
+  - 方法&thinsp;2：ブラウザで&thinsp;URL&thinsp;を直接指定
+
+    - 読み込む&thinsp;ipynb&thinsp;の&thinsp;GitHub&thinsp;でのアドレスを調べる
+
+      例：https://github.com/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_1.ipynb
+
+    - アドレスのうち先頭の `https://github.com` を `https://colab.research.google.com/github` に変え、ブラウザで開く
+
+      例：https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_1.ipynb
+
+  - 読み込みまたは初回のセル実行前に警告が出る（Colab&thinsp;の外で作成されたファイルだから）
 
   - 正常に開けたら、ファイル名（左上）の先頭に&thinsp;GitHub&thinsp;のアイコンがあるはず
 
@@ -201,6 +211,8 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
       - 手順は&thinsp;[<ins>前項の最後</ins>](#%E3%81%93%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AB%E3%81%82%E3%82%8Bipynb%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92colab%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%8E%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%82%80)&thinsp;にあるとおり
 
       - ipynb&thinsp;ファイル `base/base_chapter_6_1.ipynb`
+
+      - 直接開く&thinsp;URL → https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_1.ipynb
 
     - 読み込み後、ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
 
