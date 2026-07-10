@@ -25,7 +25,7 @@
 
   - 作業用&thinsp;ipynb&thinsp;ファイルの読み込み
 
-      - ipynb&thinsp;ファイル：[`base/base_chapter_6_2.ipynb`](base/base_chapter_6_2.ipynb)
+      - ipynb&thinsp;ファイル：[`../base/base_chapter_6_2.ipynb`](base/base_chapter_6_2.ipynb)
 
       - 直接開く&thinsp;URL：https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_2.ipynb
 
