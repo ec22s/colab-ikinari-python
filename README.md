@@ -9,7 +9,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第16回 (日程調整中)](#%E7%AC%AC16%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)
+- [第17回 (日程調整中)](#%E7%AC%AC17%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)
+
+- [第16回 (2026.7.10)](day-16/day-16-summary.md)　Chapter 6 続き（既存の動画を読み込んで物体検出, 人の数をカウント）
 
 - [第15回 (2026.6.25)](day-15/day-15-summary.md)　Chapter 6 初回（パッケージインストール, 動画撮影＆リアルタイム物体検出）
 
@@ -198,27 +200,33 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第16回予定（日程調整中）
+## 第17回予定（日程調整中）
 
 - オンライン（録画忘れずに）
 
-- (1) 前回の振り返り → [<ins>サマリ</ins>](day-15/day-15-summary.md)&thinsp;参照
+- (1) 前回の振り返り → [<ins>サマリ</ins>](day-16/day-16-summary.md)&thinsp;参照
 
 - (2) 参加者の画面を共有してもらい、一緒に作業
 
-  - Chapter 6 - 第2回
+  - 前回（Chapter 6 - 第&thinsp;2&thinsp;回, 本の&thinsp;p.188&thinsp;〜&thinsp;p.194）の自習課題の結果確認
 
-    - 本の&thinsp;p.188&thinsp;〜&thinsp;p.194&thinsp;（物体検出で人だけを対象にする, 人数を数える）
+    - ipynb&thinsp;ファイル：[`base/base_chapter_6_2.ipynb`](base/base_chapter_6_2.ipynb)
+
+      `(10)` 検出した人数を画像内に表示
+
+      `(11)` 本にない応用例（余裕あれば）：検出対象を絞らず、検出したクラスと数をまとめて画像に出す
+
+    - 質問等あれば
+
+  - Chapter 6 - 第3回（本の&thinsp;p.195&thinsp;〜&thinsp;202,  笑顔の検出）
 
     - GitHub&thinsp;の作業用&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む
 
-      - 手順は&thinsp;[<ins>前項の最後</ins>](#%E3%81%93%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AB%E3%81%82%E3%82%8Bipynb%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92colab%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%8E%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%82%80)&thinsp;にあるとおり
+      - ipynb&thinsp;ファイル：準備中 <!-- [`base/base_chapter_6_3.ipynb`](base/base_chapter_6_3.ipynb) -->
 
-      - ipynb&thinsp;ファイル：[`base/base_chapter_6_2.ipynb`](base/base_chapter_6_2.ipynb)
+      - 直接開く&thinsp;URL：準備中 <!-- https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb -->
 
-      - 直接開く&thinsp;URL：https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_2.ipynb
-
-    - 読み込み後、ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
+    - ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
 
     - 作業内容は各セルのコメントを参照、不明点は随時質問を
 
