@@ -214,9 +214,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
       - 手順は&thinsp;[<ins>前項の最後</ins>](#%E3%81%93%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%81%AB%E3%81%82%E3%82%8Bipynb%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%82%92colab%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E3%83%8E%E3%83%BC%E3%83%88%E3%83%96%E3%83%83%E3%82%AF%E3%81%A8%E3%81%97%E3%81%A6%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%82%80)&thinsp;にあるとおり
 
-      - ipynb&thinsp;ファイル：準備中<!-- `base/base_chapter_6_2.ipynb` -->
+      - ipynb&thinsp;ファイル：`base/base_chapter_6_2.ipynb`
 
-      - 直接開く&thinsp;URL：準備中<!-- → https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_2.ipynb -->
+      - 直接開く&thinsp;URL：https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_2.ipynb
 
     - 読み込み後、ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
 
