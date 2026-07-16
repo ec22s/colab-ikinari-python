@@ -9,7 +9,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第17回 (日程調整中)](#%E7%AC%AC17%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)
+- [第17回 (日程調整中)](#%E7%AC%AC17%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)　Chapter 6 続き（既存の動画を読み込んで顔と笑顔の検出・カウント）
 
 - [第16回 (2026.7.10)](day-16/day-16-summary.md)　Chapter 6 続き（既存の動画を読み込んで物体検出, 人の数をカウント）
 
@@ -220,11 +220,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - Chapter 6 - 第3回（本の&thinsp;p.195&thinsp;〜&thinsp;202,  笑顔の検出）
 
-    - GitHub&thinsp;の作業用&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む
+    - GitHub&thinsp;の作業ベース用&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む
 
-      - ipynb&thinsp;ファイル：準備中 <!-- [`base/base_chapter_6_3.ipynb`](base/base_chapter_6_3.ipynb) -->
+      - ipynb&thinsp;ファイル： [`base/base_chapter_6_3.ipynb`](base/base_chapter_6_3.ipynb)
 
-      - 直接開く&thinsp;URL：準備中 <!-- https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb -->
+      - 直接開く&thinsp;URL： https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb
 
     - ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
 
