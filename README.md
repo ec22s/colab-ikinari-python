@@ -9,7 +9,9 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 ## 次回予定 & 開催記録
 
-- [第17回 (日程調整中)](#%E7%AC%AC17%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)　Chapter 6 続き（既存の動画を読み込んで顔と笑顔の検出・カウント）
+- [第18回 (日程調整中)](#%E7%AC%AC18%E5%9B%9E%E4%BA%88%E5%AE%9A%E6%97%A5%E7%A8%8B%E8%AA%BF%E6%95%B4%E4%B8%AD)　Chapter 6 おそらく最後（動画から笑顔の人数をカウント、全員笑顔の時を記録）
+
+- [第17回 (2026.7.17)](day-17/day-17-summary.md)　Chapter 6 続き（前回の自習課題の確認、次回向け動画の準備〜人数カウントまで）
 
 - [第16回 (2026.7.10)](day-16/day-16-summary.md)　Chapter 6 続き（既存の動画を読み込んで物体検出, 人の数をカウント）
 
@@ -200,31 +202,31 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 <br>
 
-## 第17回予定（日程調整中）
+## 第18回予定（日程調整中）
 
 - オンライン（録画忘れずに）
 
-- (1) 前回の振り返り → [<ins>サマリ</ins>](day-16/day-16-summary.md)&thinsp;参照
+- (1) 前回の振り返り → [<ins>サマリ</ins>](day-17/day-17-summary.md)&thinsp;参照
 
 - (2) 参加者の画面を共有してもらい、一緒に作業
 
-  - 前回（Chapter 6 - 第&thinsp;2&thinsp;回, 本の&thinsp;p.188&thinsp;〜&thinsp;p.194）の自習課題の結果確認
+  - 前回（Chapter 6 - 第&thinsp;3&thinsp;回, 本の&thinsp;p.195&thinsp;〜&thinsp;p.202）の自習課題の結果確認
 
-    - ipynb&thinsp;ファイル：[`base/base_chapter_6_2.ipynb`](base/base_chapter_6_2.ipynb)
+    - ipynb&thinsp;ファイル：[`base/base_chapter_6_2.ipynb`](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb)
 
-      `(10)` 検出した人数を画像内に表示
+      `(5)` 動画から人の顔の領域を抽出 (本 6-5-1)
 
-      `(11)` 本にない応用例（余裕あれば）：検出対象を絞らず、検出したクラスと数をまとめて画像に出す
+      `(6)` 動画から笑顔を検出 (本 6-5-2)
+
+      `(7)` 動画に写る笑顔の人数を表示 (本 6-5-3)
 
     - 質問等あれば
 
-  - Chapter 6 - 第3回（本の&thinsp;p.195&thinsp;〜&thinsp;202,  笑顔の検出）
+  - Chapter 6 - 第4回（本の&thinsp;p.203&thinsp;〜&thinsp;205, 全員が笑顔になったら撮影）
 
-    - GitHub&thinsp;の作業ベース用&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む
+    - GitHub&thinsp;から作業ベース用&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む
 
-      - ipynb&thinsp;ファイル： [`base/base_chapter_6_3.ipynb`](base/base_chapter_6_3.ipynb)
-
-      - 直接開く&thinsp;URL： https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb
+      - ipynb&thinsp;ファイル： 準備中 <!-- [`base/base_chapter_6_4.ipynb`](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_4.ipynb) -->
 
     - ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
 
@@ -238,9 +240,29 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - (3) クロージング
 
-  - 次回の日時・内容・進め方について
+  - 今回で本の内容が一とおり終わる予定
 
-    - そろそろ終わりが見えてきたかも？
+  - 参加者の感想、意見交換、補充的な開催や個別サポート等について
+
+    - 途中から欠席した人は自習で補えているか
+
+    - 本と同様にローカル環境で、同じ内容を自分でやると非常に良い復習
+
+      - ただし環境構築やパッケージインストールで想定外に詰まるかも
+
+    - Colab&thinsp;を便利に使う点はまだ扱っていない（Google Drive&thinsp;との連携等）
+
+      - 要望があれば追加で開催することも可
+
+    - Python&thinsp;と&thinsp;Colab&thinsp;をより深めたい場合、内容は少々難しいが下記の本がお勧め
+
+      - Python&thinsp;3&thinsp;年生 ディープラーニングのしくみ 体験してわかる！会話でまなべる！
+        https://www.seshop.com/product/detail/25109
+
+      - Colab&thinsp;がよく使われる分野を扱っており実践的
+
+      - CNN（畳み込みニューラルネット）など現代の&thinsp;AI&thinsp;に直結する処理を体験できる
+
 
   - その他あれば
 
