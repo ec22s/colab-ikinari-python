@@ -31,9 +31,11 @@
 
       - 自分の&thinsp;Google Drive&thinsp;にコピーして作業開始
 
-  - `ipynb (1) (2)` 動画の準備（多くの人や車が登場する交差点の様子）, Colab&thinsp;内で再生し確認
+  - `ipynb (1) (2)` 動画の準備（多くの人が行き交う交差点の様子）, Colab&thinsp;内で再生し確認
 
     <img width=384 src="example-movie-1.jpg">
+
+    - 学習会の時は、YouTube&thinsp;の動画をダウンロードするツール `yt-dlp` が&thinsp;Colab&thinsp;上で動いたためそれを使ったが、それから1週間後までに状況が変わり、Colab&thinsp;上で当該ツールが機能しなくなった。現在は別の方法で（無料素材サイトから等）動画を準備する必要あり
 
   - `ipynb (3) (4)` 動画から1コマ1コマのフレームを抽出し表示
 
