@@ -246,7 +246,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
     - 途中から欠席した人は自習で補えているか
 
-    - 本と同様にローカル環境で、同じ内容を自分でやると非常に良い復習
+    - 自分で、本と同様のローカル環境でもう一度やってみると非常に良い復習
 
       - ただし環境構築やパッケージインストールで想定外に詰まるかも
 
@@ -254,14 +254,16 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
       - 要望があれば追加で開催することも可
 
+      - JavaScript&thinsp;の埋め込みを使えば、Web&thinsp;アプリ的なことも&thinsp;Colab&thinsp;で学べる
+
     - Python&thinsp;と&thinsp;Colab&thinsp;をより深めたい場合、内容は少々難しいが下記の本がお勧め
 
-      - Python&thinsp;3&thinsp;年生 ディープラーニングのしくみ 体験してわかる！会話でまなべる！
+      - 『Python&thinsp;3&thinsp;年生 ディープラーニングのしくみ 体験してわかる！会話でまなべる！』
         https://www.seshop.com/product/detail/25109
 
       - Colab&thinsp;がよく使われる分野を扱っており実践的
 
-      - CNN（畳み込みニューラルネット）など現代の&thinsp;AI&thinsp;に直結する処理を体験できる
+      - CNN（畳み込みニューラルネット）など&thinsp;AI&thinsp;に直結する処理を体験できる
 
 
   - その他あれば
