@@ -212,7 +212,7 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
   - 前回（Chapter 6 - 第&thinsp;3&thinsp;回, 本の&thinsp;p.195&thinsp;〜&thinsp;p.202）の自習課題の結果確認
 
-    - ipynb&thinsp;ファイル：[`base/base_chapter_6_2.ipynb`](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb)
+    - ipynb&thinsp;ファイル：[`base/base_chapter_6_3.ipynb`](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb)
 
       `(5)` 動画から人の顔の領域を抽出 (本 6-5-1)
 
