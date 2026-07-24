@@ -210,9 +210,15 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
 - (2) 参加者の画面を共有してもらい、一緒に作業
 
-  - 前回（Chapter 6 - 第&thinsp;3&thinsp;回, 本の&thinsp;p.195&thinsp;〜&thinsp;p.202）の自習課題の結果確認
+  - 前回（Chapter 6 - 第&thinsp;3&thinsp;回）と今回の&thinsp;ipynb&thinsp;を一つにまとめた. 自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
 
-    - ipynb&thinsp;ファイル：[`base/base_chapter_6_3.ipynb`](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb)
+    - ipynb&thinsp;ファイル：[`base/base_chapter_6_3-4.ipynb`](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3-4.ipynb)
+
+    - 作業内容は各セルのコメントを参照、不明点は随時質問を
+
+    - まとめた理由：今回の内容が少ないのと、前回に続けた方が分かりやすい
+
+  - 前回の自習課題の結果確認
 
       `(5)` 動画から人の顔の領域を抽出 (本 6-5-1)
 
@@ -220,17 +226,11 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
 
       `(7)` 動画に写る笑顔の人数を表示 (本 6-5-3)
 
-    - 質問等あれば
+  - Chapter 6 - 第4回（本の&thinsp;p.203&thinsp;〜&thinsp;最後まで）
 
-  - Chapter 6 - 第4回（本の&thinsp;p.203&thinsp;〜&thinsp;205, 全員が笑顔になったら撮影）
+      `(8)` 全員笑顔になったら撮影 (本 6-6-1)
 
-    - GitHub&thinsp;から作業ベース用&thinsp;ipynb&thinsp;ファイルを新しいノートブックとして読み込む
-
-      - ipynb&thinsp;ファイル： 準備中 <!-- [`base/base_chapter_6_4.ipynb`](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_4.ipynb) -->
-
-    - ノートブックを自分の&thinsp;Google Drive&thinsp;にコピー保存して作業開始
-
-    - 作業内容は各セルのコメントを参照、不明点は随時質問を
+      `(9)` 応用例：全員笑顔になったら動画を止めて撮影、文字と元画像 (少し大きく) を表示
 
   - 画面を共有しない人は
 
@@ -266,7 +266,6 @@ Google Colaboratory（Colab）で本『いきなりプログラミング Python�
       - Colab&thinsp;がよく使われる分野を扱っており実践的
 
       - CNN（畳み込みニューラルネット）など&thinsp;AI&thinsp;に直結する処理を体験できる
-
 
   - その他あれば
 
