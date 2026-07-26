@@ -27,7 +27,7 @@
 
     - Colab&thinsp;の出力欄に検出結果を表示（本：ローカル環境の画像ウィンドウに結果表示）
 
-- (3) Chapter 6 第&thinsp;2&thinsp;回の自習課題の取り組み結果を、参加者の画面を共有してもらい確認
+- (3) Chapter 6 第2回の自習課題の取り組み結果を、参加者の画面を共有してもらい確認
 
   - [<ins>base_chapter_6_2.ipynb</ins>](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_2.ipynb) (10) (11) ともに問題なく出来ていた
 
@@ -35,9 +35,9 @@
 
   - (10) (11) で検出結果の表示サイズを調整する例を説明（動画の縦横サイズに合わせる）
 
-- (4) 引き続き参加者が画面共有しながら、Chapter 6 第&thinsp;3&thinsp;回の内容を作業
+- (4) 引き続き参加者が画面共有しながら、Chapter 6 第3回の内容を作業
 
-  - 作業用ベース&thinsp;[<ins>base_chapter_6_3.ipynb</ins>](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3.ipynb)&thinsp;の読み込み
+  - 作業用ベース&thinsp;[<ins>base_chapter_6_3-4.ipynb</ins>](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3-4.ipynb)&thinsp;の読み込み
 
       - 自分の&thinsp;Google Drive&thinsp;にコピーして作業開始
 
