@@ -1,22 +1,66 @@
 # colab-ikinari-python
 
-2026年1月〜7月、Google Colaboratory（Colab）で本『いきなりプログラミング Python』に取り組んだ学習会の資料・独自ソース
+2026年1月〜7月、Google Colaboratory（Colab）で下記の本をやってみた学習会の資料・独自ソース
+
+<img width="256" src="https://github.com/user-attachments/assets/accc316a-10bb-4c15-8414-5e1fb46118f7" />
+
+- wat 著『いきなりプログラミング Python』(2024.6.25)
+
+  - 出版社（翔泳社）のページ https://www.shoeisha.co.jp/book/detail/9784798184869
+  
+  - 著者のサポートページ https://watlab-blog.com/ikinari-python-book/
 
 <br>
 
-## 自習用ひな型
+### 学習会の概要
 
-- Chapter 1&thinsp;〜&thinsp;5：整理中
+- 組織内のクローズドなものとして実施
 
-  - 整理前のものは、次々項「学習会の概要」にある各回の&thinsp;URL&thinsp;から閲覧可
+- 想定した対象者と学習会の位置づけ
 
-- Chapter 6 (各リンクを開くと本リポジトリの&thinsp;ipynb&thinsp;が&thinsp;Colab&thinsp;で開かれます）
+  - プログラミング未経験者 → 最初のプログラミング体験として
 
-  - [その1](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_1.ipynb)　[その2](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_2.ipynb)　[その3](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3-4.ipynb)
+  - 初心者・Python&thinsp;未経験者 → Python&thinsp;入門として
+
+  - Colab&thinsp;や各種ライブラリの未経験者 → その入門として
 
 <br>
 
-## 学習会用に作った独自関数・クラス
+### 学習会の主な趣旨
+
+- 何より本が良く、未経験者・初心者におすすめ
+
+  - まず作って楽しむ方向がプログラミング入門に最適
+
+  - レイアウトが読みやすく図が多い
+
+  - 正規表現や&thinsp;OpenCV&thinsp;など中級者にも有用
+
+  - 一部の内容は初心者にやや難しいが、後々読み返して理解を試みると役に立つ
+
+- Colabで動かす利用とオリジナリティ
+
+  - 本の内容だけ扱うなら学習会をするまでもない（自習と個別サポートで十分）
+
+  - Chapter 3&thinsp;以降は本のままだとColabで動かず、学習会独自の&thinsp;+&thinsp;α&thinsp;が必要
+
+    → オリジナルの関数・クラスを作り、Chapter 3&thinsp;以降も本と同様のことが&thinsp;Colab&thinsp;でできるようにした
+
+    → 詳細は各章の&thinsp;readme&thinsp;やフォルダ内を参照
+
+  - ローカル環境より&thinsp;Colab&thinsp;でやる方がシェアしやすく発展性がある
+
+  - Colab&thinsp;に慣れれば他のことにも使える（データ分析や機械学習等）
+
+- GitHubにも慣れる（資料、学習会オリジナルのコードはここに集約）
+
+  - ソースコードの共有ツールとして事実上デファクト
+
+  - 仕事で開発するなら必須、早いうちに慣れるとよい（情報を見るだけでも）
+
+<br>
+
+### 学習会用に作った独自関数・クラス
 
 - [`record_auto_stop.py`](chapter-4/record_auto_stop.py) Colab&thinsp;で&thinsp;PC&thinsp;のマイクから録音する関数 (Chapter 3・4&thinsp;で使用)
 
@@ -34,104 +78,55 @@
 
 <br>
 
-## 学習会の概要
+### 自習用ひな型
 
-- 組織内のクローズドなものとして実施
+- Chapter 1&thinsp;〜&thinsp;5：整理中
 
-- 想定した対象者と学習会の位置づけ
+  - 整理前のものは、次項にある各回の&thinsp;URL&thinsp;から閲覧可
 
-  - プログラミング未経験者 → 最初のプログラミング体験として
+- Chapter 6 (各リンクを開くと本リポジトリの&thinsp;ipynb&thinsp;が&thinsp;Colab&thinsp;で開かれます）
 
-  - 初心者・Python&thinsp;未経験者 → Python&thinsp;入門として
-
-  - Colab&thinsp;や各種ライブラリの未経験者 → その入門として
-
-- 各回の開催記録
-
-  - [第18回 (2026.7.24)](day-18/day-18-summary.md)　Chapter 6 続き〜最後まで（動画から笑顔の人数をカウント、全員笑顔の時を記録）
-
-  - [第17回 (2026.7.17)](day-17/day-17-summary.md)　Chapter 6 続き（前回の自習課題の確認、次回向け動画の準備〜人数カウントまで）
-
-  - [第16回 (2026.7.10)](day-16/day-16-summary.md)　Chapter 6 続き（既存の動画を読み込んで物体検出, 人の数をカウント）
-
-  - [第15回 (2026.6.25)](day-15/day-15-summary.md)　Chapter 6 初回（パッケージインストール, 動画撮影＆リアルタイム物体検出）
-
-  - [第14回 (2026.6.18)](day-14/day-14-summary.md)　作業手順の改善、Chapter 5&thinsp;最後（動画撮影〜色変換・エッジ抽出して再生）
-
-  - [第13回 (2026.6.5)](day-13/day-13-summary.md)　Chapter 5（Colab&thinsp;で撮影した動画に色変換・ぼかし・エッジ抽出をして再生）
-
-  - [第12回 (2026.5.22)](day-12/day-12-summary.md)　Chapter 5（独自の関数を追加し、Colab&thinsp;での動画撮影〜保存〜再生を簡単に行う）
-
-  - [第11回 (2026.4.28)](day-11/day-11-summary.md)　Chapter 5（独自のColab用関数を使い、本と同じ撮影・録画・画像処理を実施）
-
-  - [第10回 (2026.4.17)](day-10/day-10-summary.md)　参加者の進度別に作業：Chapter 4（音声認識）, Chapter 5（画像処理）
-
-  - [第9回 (2026.3.27)](day-9/day-9-summary.md)　Chapter 3（未着手の参加者サポート）, Chapter 4（音声認識）初回
-
-  - [第8回 (2026.3.13)](day-8/day-8-summary.md)　Chapter 3 続き（未完の参加者サポート）, Chapter 4（音声認識）準備まで
-
-  - [第7回 (2026.2.27)](day-7/day-7-summary.md)　Chapter 3 続き（独自に準備したColab用関数を使い、本と同じ機能＋αを実施）
-
-  - [第6回 (2026.2.13)](day-6/day-6-summary.md)　Chapter 2 までの進捗確認・質問・サポート、Chapter 3（声変わり機）初回
-
-  - [第5回 (2026.2.6)](day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
-
-  - [第4回 (2026.1.30)](day-4/day-4-summary.md)　本 Chapter 2（p.38〜66）の説明、各自作業
-
-  - [第3回 (2026.1.23)](day-3/day-3-summary.md)　本 `1ｰ3` の質疑応答（文字列の部分一致）、ゲームの改良
-
-  - [第2回 (2026.1.16)](day-2/day-2-summary.md)　本 `1ｰ3`（p.23〜36）最初のアプリ（数当てられゲーム）
-
-  - [第1回 (2026.1.9)](day-1/day-1-summary.md)　本の説明、GitHubとColabの設定、最初のプログラム（Hello World）
+  - [その1](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_1.ipynb)　[その2](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_2.ipynb)　[その3](https://colab.research.google.com/github/ec22s/colab-ikinari-python/blob/main/base/base_chapter_6_3-4.ipynb)
 
 <br>
 
-## 本『いきなりプログラミング Python』について
-- wat 著
+### 各回の開催記録
 
-- 発売 2024.6.25
+- [第18回 (2026.7.24)](day-18/day-18-summary.md)　Chapter 6 続き〜最後まで（動画から笑顔の人数をカウント、全員笑顔の時を記録）
 
-- 出版社（翔泳社）のページ https://www.shoeisha.co.jp/book/detail/9784798184869
+- [第17回 (2026.7.17)](day-17/day-17-summary.md)　Chapter 6 続き（前回の自習課題の確認、次回向け動画の準備〜人数カウントまで）
 
-- 著者のサポートページ https://watlab-blog.com/ikinari-python-book/
+- [第16回 (2026.7.10)](day-16/day-16-summary.md)　Chapter 6 続き（既存の動画を読み込んで物体検出, 人の数をカウント）
 
-<br>
+- [第15回 (2026.6.25)](day-15/day-15-summary.md)　Chapter 6 初回（パッケージインストール, 動画撮影＆リアルタイム物体検出）
 
-## 学習会の趣旨
+- [第14回 (2026.6.18)](day-14/day-14-summary.md)　作業手順の改善、Chapter 5&thinsp;最後（動画撮影〜色変換・エッジ抽出して再生）
 
-### 何より本が良く、未経験者・初心者におすすめ
+- [第13回 (2026.6.5)](day-13/day-13-summary.md)　Chapter 5（Colab&thinsp;で撮影した動画に色変換・ぼかし・エッジ抽出をして再生）
 
-  - まず作って楽しむ方向がプログラミング入門に最適
+- [第12回 (2026.5.22)](day-12/day-12-summary.md)　Chapter 5（独自の関数を追加し、Colab&thinsp;での動画撮影〜保存〜再生を簡単に行う）
 
-  - レイアウトが読みやすく図が多い
+- [第11回 (2026.4.28)](day-11/day-11-summary.md)　Chapter 5（独自のColab用関数を使い、本と同じ撮影・録画・画像処理を実施）
 
-  - 正規表現や&thinsp;OpenCV&thinsp;など中級者にも有用
+- [第10回 (2026.4.17)](day-10/day-10-summary.md)　参加者の進度別に作業：Chapter 4（音声認識）, Chapter 5（画像処理）
 
-  - 一部の内容は初心者にやや難しいが、後々読み返して理解を試みると役に立つ
+- [第9回 (2026.3.27)](day-9/day-9-summary.md)　Chapter 3（未着手の参加者サポート）, Chapter 4（音声認識）初回
 
-<br>
+- [第8回 (2026.3.13)](day-8/day-8-summary.md)　Chapter 3 続き（未完の参加者サポート）, Chapter 4（音声認識）準備まで
 
-### Colabで動かす利用とオリジナリティ
+- [第7回 (2026.2.27)](day-7/day-7-summary.md)　Chapter 3 続き（独自に準備したColab用関数を使い、本と同じ機能＋αを実施）
 
-  - 本の内容だけ扱うなら学習会をするまでもない（自習と個別サポートで十分）
+- [第6回 (2026.2.13)](day-6/day-6-summary.md)　Chapter 2 までの進捗確認・質問・サポート、Chapter 3（声変わり機）初回
 
-  - Chapter 3&thinsp;以降は本のままだとColabで動かず、学習会独自の&thinsp;+&thinsp;α&thinsp;が必要
+- [第5回 (2026.2.6)](day-5/day-5-summary.md)　Chapter 2 進捗確認、質疑応答、Chapter 1と2をWebアプリ化した例の紹介
 
-    → オリジナルの関数・クラスを作り、Chapter 3&thinsp;以降も本と同様のことが&thinsp;Colab&thinsp;でできるようにした
+- [第4回 (2026.1.30)](day-4/day-4-summary.md)　本 Chapter 2（p.38〜66）の説明、各自作業
 
-    → 詳細は各章の&thinsp;readme&thinsp;やフォルダ内を参照
+- [第3回 (2026.1.23)](day-3/day-3-summary.md)　本 `1ｰ3` の質疑応答（文字列の部分一致）、ゲームの改良
 
-  - ローカル環境より&thinsp;Colab&thinsp;でやる方がシェアしやすく発展性がある
+- [第2回 (2026.1.16)](day-2/day-2-summary.md)　本 `1ｰ3`（p.23〜36）最初のアプリ（数当てられゲーム）
 
-  - Colab&thinsp;に慣れれば他のことにも使える（データ分析や機械学習等）
-
-<br>
-
-### GitHubにも慣れる（資料、学習会オリジナルのコードはここに集約）
-
-  - ソースコードの共有ツールとして事実上デファクト
-
-  - 仕事で開発するなら必須、早いうちに慣れるとよい（情報を見るだけでも）
+- [第1回 (2026.1.9)](day-1/day-1-summary.md)　本の説明、GitHubとColabの設定、最初のプログラム（Hello World）
 
 <br>
 
@@ -147,7 +142,7 @@
 
     - これもなるべくキーボードを見ないで打てるとよい
 
-  - 頻度の多いマウス（ポインタ）操作は、ショートカットキーを調べて覚える
+  - よく使うマウス（ポインタ）操作は、キーボードでのショートカットを調べて覚える
 
   - 範囲選択はできるだけマウスを使わず、Shift&thinsp;+&thinsp;カーソルキーやダブル（トリプル）クリック等を活用する
 
@@ -229,7 +224,7 @@
 
   - このノートブックを編集したり、実行して結果を保存したい場合、左上のファイルメニューから&thinsp;Google Drive&thinsp;にコピー保存してから行う
 
-    GitHub&thinsp;への保存もできるが少々説明が要るので、学習会では割愛した
+    GitHub&thinsp;への保存も可能ですが少々説明が要るので、学習会では割愛しました
 
 <br>
 
